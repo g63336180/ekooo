@@ -1,0 +1,472 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TGM Plugin Activation\n"
+"POT-Creation-Date: 2017-03-21 16:58+0800\n"
+"PO-Revision-Date: 2017-03-21 16:58+0800\n"
+"Last-Translator: yang sean <yase19636404@163.com>\n"
+"Language-Team: TGMPA\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: class-tgm-plugin-activation.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: example.php\n"
+
+#: class-tgm-plugin-activation.php:336 required-plugins.php:92
+msgid "Install Required Plugins"
+msgstr "安装必须插件"
+
+#: class-tgm-plugin-activation.php:337 required-plugins.php:93
+msgid "Install Plugins"
+msgstr "安装插件"
+
+#: class-tgm-plugin-activation.php:339 required-plugins.php:94
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "安装插件: %s"
+
+#: class-tgm-plugin-activation.php:341
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "升级插件: %s"
+
+#: class-tgm-plugin-activation.php:342 required-plugins.php:96
+msgid "Something went wrong with the plugin API."
+msgstr "该插件API有问题。"
+
+#: class-tgm-plugin-activation.php:345 required-plugins.php:97
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+
+#: class-tgm-plugin-activation.php:351 required-plugins.php:99
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+
+#: class-tgm-plugin-activation.php:357 required-plugins.php:109
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+
+#: class-tgm-plugin-activation.php:363
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+
+#: class-tgm-plugin-activation.php:369 required-plugins.php:103
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+
+#: class-tgm-plugin-activation.php:375 required-plugins.php:105
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+
+#: class-tgm-plugin-activation.php:380 required-plugins.php:113
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+
+#: class-tgm-plugin-activation.php:385
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+
+#: class-tgm-plugin-activation.php:390
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+
+#: class-tgm-plugin-activation.php:394 required-plugins.php:115
+msgid "Return to Required Plugins Installer"
+msgstr "返回外掛程式安裝器"
+
+#: class-tgm-plugin-activation.php:395 class-tgm-plugin-activation.php:944
+#: class-tgm-plugin-activation.php:2650 class-tgm-plugin-activation.php:3697
+msgid "Return to the Dashboard"
+msgstr "返回面板首頁"
+
+#: class-tgm-plugin-activation.php:396 class-tgm-plugin-activation.php:3276
+#: required-plugins.php:116
+msgid "Plugin activated successfully."
+msgstr "插件启用成功"
+
+#: class-tgm-plugin-activation.php:397 class-tgm-plugin-activation.php:3069
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+
+#: class-tgm-plugin-activation.php:399
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:401
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr "插件未激活。主题需要更高的版本%s 。请先升级插件。"
+
+#: class-tgm-plugin-activation.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "所有的插件被成功激活: %1$s"
+
+#: class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr "关闭本通知"
+
+#: class-tgm-plugin-activation.php:405
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr "有一个或多个要求或推荐的插件需要安装、更新或激活。"
+
+#: class-tgm-plugin-activation.php:406
+msgid "Please contact the administrator of this site for help."
+msgstr "请联系这个网站的管理员寻求帮助。"
+
+#: class-tgm-plugin-activation.php:613
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "这个插件需要更新以兼容你的主题。"
+
+#: class-tgm-plugin-activation.php:614
+msgid "Update Required"
+msgstr "需要更新"
+
+#: class-tgm-plugin-activation.php:1051
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr "远程插件包里不包含相应的文件夹，重命名不工作。"
+
+#: class-tgm-plugin-activation.php:1051 class-tgm-plugin-activation.php:1054
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr "请联系插件提供商，请他们根据WordPress的指南打包自己的插件。"
+
+#: class-tgm-plugin-activation.php:1054
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr "远程插件包包含不止一个文件,但这些文件不是打包到一个文件夹中。"
+
+#: class-tgm-plugin-activation.php:1238 class-tgm-plugin-activation.php:3065
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "和"
+
+#: class-tgm-plugin-activation.php:2099
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: class-tgm-plugin-activation.php:2390
+msgid "Required"
+msgstr "要求"
+
+#: class-tgm-plugin-activation.php:2393
+msgid "Recommended"
+msgstr "推薦"
+
+#: class-tgm-plugin-activation.php:2409
+msgid "WordPress Repository"
+msgstr "WordPress知识库"
+
+#: class-tgm-plugin-activation.php:2412
+msgid "External Source"
+msgstr "外部源"
+
+#: class-tgm-plugin-activation.php:2415
+msgid "Pre-Packaged"
+msgstr "预封装"
+
+#: class-tgm-plugin-activation.php:2432
+msgid "Not Installed"
+msgstr "没有安装"
+
+#: class-tgm-plugin-activation.php:2436
+msgid "Installed But Not Activated"
+msgstr "已安装,但没有激活"
+
+#: class-tgm-plugin-activation.php:2438
+msgid "Active"
+msgstr "激活"
+
+#: class-tgm-plugin-activation.php:2444
+msgid "Required Update not Available"
+msgstr "未激活需要更新的"
+
+#: class-tgm-plugin-activation.php:2447
+msgid "Requires Update"
+msgstr "需要更新的"
+
+#: class-tgm-plugin-activation.php:2450
+msgid "Update recommended"
+msgstr "更新被推荐的"
+
+#: class-tgm-plugin-activation.php:2459
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: class-tgm-plugin-activation.php:2505
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+
+#: class-tgm-plugin-activation.php:2509
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+
+#: class-tgm-plugin-activation.php:2513
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+
+#: class-tgm-plugin-activation.php:2517
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+
+#: class-tgm-plugin-activation.php:2599
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "未知"
+
+#: class-tgm-plugin-activation.php:2607
+msgid "Installed version:"
+msgstr "已安装:"
+
+#: class-tgm-plugin-activation.php:2615
+msgid "Minimum required version:"
+msgstr "所需的最低版本:"
+
+#: class-tgm-plugin-activation.php:2627
+msgid "Available version:"
+msgstr "可用的版本："
+
+#: class-tgm-plugin-activation.php:2650
+msgid "No plugins to install, update or activate."
+msgstr "没有插件需要安裝，更新或激活。"
+
+#: class-tgm-plugin-activation.php:2664
+msgid "Plugin"
+msgstr "常见"
+
+#: class-tgm-plugin-activation.php:2665
+msgid "Source"
+msgstr "来源"
+
+#: class-tgm-plugin-activation.php:2666
+msgid "Type"
+msgstr "类型"
+
+#: class-tgm-plugin-activation.php:2670
+msgid "Version"
+msgstr "版本"
+
+#: class-tgm-plugin-activation.php:2671
+msgid "Status"
+msgstr "状态"
+
+#: class-tgm-plugin-activation.php:2720
+#, php-format
+msgid "Install %2$s"
+msgstr "安装 %2$s"
+
+#: class-tgm-plugin-activation.php:2725
+#, php-format
+msgid "Update %2$s"
+msgstr "更新 %2$s"
+
+#: class-tgm-plugin-activation.php:2731
+#, php-format
+msgid "Activate %2$s"
+msgstr "启用 %2$s"
+
+#: class-tgm-plugin-activation.php:2801
+msgid "Upgrade message from the plugin author:"
+msgstr "插件作者的更新信息是："
+
+#: class-tgm-plugin-activation.php:2834
+msgid "Install"
+msgstr "安装"
+
+#: class-tgm-plugin-activation.php:2840
+msgid "Update"
+msgstr "更新"
+
+#: class-tgm-plugin-activation.php:2843
+msgid "Activate"
+msgstr "激活"
+
+#: class-tgm-plugin-activation.php:2874
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "没有选择要安装插件。没有采取行动。"
+
+#: class-tgm-plugin-activation.php:2876
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "没有选择要更新的插件。没有采取行动。"
+
+#: class-tgm-plugin-activation.php:2917
+msgid "No plugins are available to be installed at this time."
+msgstr "此时没有可安装的插件。"
+
+#: class-tgm-plugin-activation.php:2919
+msgid "No plugins are available to be updated at this time."
+msgstr "没有插件可在这个时候更新。"
+
+#: class-tgm-plugin-activation.php:3025
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "没有选择要激活的插件。没有采取行动。"
+
+#: class-tgm-plugin-activation.php:3051
+msgid "No plugins are available to be activated at this time."
+msgstr "此时没有可用的插件被激活。"
+
+#: class-tgm-plugin-activation.php:3275
+msgid "Plugin activation failed."
+msgstr "插件激活失败。"
+
+#: class-tgm-plugin-activation.php:3615
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "正在更新插件 %1$s (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:3618
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "安装时发生一个错误 %1$s: <strong>%2$s</strong>."
+
+#: class-tgm-plugin-activation.php:3620
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "%1$s的安装失败。"
+
+#: class-tgm-plugin-activation.php:3624
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr "安装和激活过程开始。这个过程在一些主机上可能需要一段时间,请耐心等待。"
+
+#: class-tgm-plugin-activation.php:3626
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s 安装和激活成功。"
+
+#: class-tgm-plugin-activation.php:3626 class-tgm-plugin-activation.php:3634
+msgid "Show Details"
+msgstr "顯示細節"
+
+#: class-tgm-plugin-activation.php:3626 class-tgm-plugin-activation.php:3634
+msgid "Hide Details"
+msgstr "隐藏日志"
+
+#: class-tgm-plugin-activation.php:3627
+msgid "All installations and activations have been completed."
+msgstr "所有的安装和激活已经完成。"
+
+#: class-tgm-plugin-activation.php:3629
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "正在安装和激活插件  %1$s (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:3632
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr "安装过程开始。这个过程在一些主机上可能需要一段时间，请耐心等待。"
+
+#: class-tgm-plugin-activation.php:3634
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s 安装成功。"
+
+#: class-tgm-plugin-activation.php:3635
+msgid "All installations have been completed."
+msgstr "所有安装完成。"
+
+#: class-tgm-plugin-activation.php:3637
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "安装插件 %1$s (%2$d/%3$d)"
+
+#: required-plugins.php:101
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+
+#: required-plugins.php:107
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+
+#: required-plugins.php:111
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+
+#: required-plugins.php:114
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+
+#: required-plugins.php:117
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#~ msgid "Set the parent_slug config variable instead."
+#~ msgstr "设置parent_slug替代配置参数"

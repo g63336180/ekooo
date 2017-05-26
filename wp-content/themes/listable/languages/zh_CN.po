@@ -1,0 +1,3413 @@
+# Copyright (C) 2017 Pixelgrade
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Listable 1.8.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/listable\n"
+"POT-Creation-Date: 2017-04-24 11:47+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-05-17 10:17+0800\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.2\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh_CN\n"
+
+#: 404.php:23
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "找不到该页面。"
+
+#: 404.php:28
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr "在本部分没有找到相应内容。请尝试再次搜索？"
+
+#: bookmark-form.php:12 bookmark-form.php:13
+msgid "Favorited"
+msgstr "收藏"
+
+#: bookmark-form.php:20 logged-out-bookmark-form.php:9
+msgid "Add to favorites"
+msgstr "添加到我的最爱"
+
+#: bookmark-form.php:21 logged-out-bookmark-form.php:12
+msgid "Favorite"
+msgstr "收藏夹"
+
+#: bookmark-form.php:27
+msgid "Notes:"
+msgstr "注意事项："
+
+#: bookmark-form.php:34
+msgid "Update Bookmark"
+msgstr "更新书签"
+
+#: bookmark-form.php:34
+msgid "Add Bookmark"
+msgstr "添加书签"
+
+#: bookmark-form.php:37
+msgid "Clear"
+msgstr "清除"
+
+#: category.php:15
+msgid "Category: "
+msgstr "分类："
+
+#: comments.php:33
+msgctxt "comments title"
+msgid "1 review"
+msgid_plural "%1$s reviews"
+msgstr[0] "1则评价"
+
+#: comments.php:39
+msgctxt "comments title"
+msgid "1 comment"
+msgid_plural "%1$s comments"
+msgstr[0] "1 条评论"
+
+#: comments.php:48 comments.php:71
+msgid "Comment navigation"
+msgstr "评论导航"
+
+#: comments.php:52 comments.php:75
+msgid "Older Comments"
+msgstr "更早的评论"
+
+#: comments.php:53 comments.php:76
+msgid "Newer Comments"
+msgstr "更新的评论"
+
+#: comments.php:86
+msgid "Comments are closed."
+msgstr "评论已经关闭。"
+
+#: comments.php:91
+msgid "Rate and write a review"
+msgstr "评分和写一条评论"
+
+#: footer.php:44
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: footer.php:44
+msgid "Proudly powered by %s"
+msgstr "采用了 %s"
+
+#: footer.php:45
+msgid "and"
+msgstr "和"
+
+#: footer.php:46
+msgid "%1$s by %2$s."
+msgstr "%1$s 于 %2$s."
+
+#: functions.php:59
+msgid "Primary Menu"
+msgstr "主选单"
+
+#: functions.php:60
+msgid "Secondary Menu"
+msgstr "二级菜单"
+
+#: functions.php:61 inc/import/demo-data/demo_data.php:5
+msgid "Search Menu"
+msgstr "搜索菜单"
+
+#: functions.php:62 inc/import/demo-data/demo_data.php:6
+msgid "Footer Menu"
+msgstr "页脚菜单"
+
+#: functions.php:201
+msgid "Add Photo"
+msgstr "添加图片"
+
+#: functions.php:202
+msgid "No results"
+msgstr "没有结果"
+
+#: functions.php:203
+msgid "Results"
+msgstr "结果"
+
+#: functions.php:204 job_manager/form-fields/multiselect-field.php:3
+msgid "Select Some Options"
+msgstr "选择一些选项"
+
+#: functions.php:205
+msgid "Select an Option"
+msgstr "选择一个选项"
+
+#: functions.php:206 job_manager/form-fields/multiselect-field.php:3
+msgid "No results match"
+msgstr "没有匹配结果"
+
+#: functions.php:235
+msgid "The import didn't work completely!"
+msgstr "导入没有完全工作！"
+
+#: functions.php:235
+msgid ""
+"Check out the errors given. You might want to try reloading the page and try "
+"again."
+msgstr "无法加载模板。 您可能想尝试并重新加载页面"
+
+#: functions.php:236
+msgid ""
+"Importing the demo data will overwrite your current site content and "
+"options. Proceed anyway?"
+msgstr "导入演示数据将覆盖当前站点内容和选项.。还要继续吗？"
+
+#: functions.php:237
+msgid "Phew...that was a hard one!"
+msgstr "啊...这个选择很困难"
+
+#: functions.php:238
+msgid "The demo data was imported without a glitch! Awesome! "
+msgstr "导入成功！"
+
+#: functions.php:239
+msgid ""
+"<i>We have reloaded the page on the right, so you can see the brand new data!"
+"</i>"
+msgstr "<i>我们重新加载页面的右边，你可以看到新的数据！</i>"
+
+#: functions.php:240 inc/import/wordpress-importer/wordpress-importer.php:181
+msgid "Remember to update the passwords and roles of imported users."
+msgstr "更新密码和填写用户名"
+
+#: functions.php:241
+msgid "All done!"
+msgstr "全做完了！"
+
+#: functions.php:242
+msgid "Working..."
+msgstr "处理中..."
+
+#: functions.php:243
+msgid "The setting up of the demo widgets failed..."
+msgstr "演示部件的設置失敗…"
+
+#: functions.php:244
+msgid "The setting up of the demo widgets failed"
+msgstr "演示部件的設置失敗"
+
+#: functions.php:244 functions.php:247
+msgid "(The script returned the following message"
+msgstr "（脚本返回下面的消息"
+
+#: functions.php:245
+msgid "Finished setting up the demo widgets..."
+msgstr "Finished setting up the demo widgets...完成设置演示小部件…"
+
+#: functions.php:246 functions.php:249
+msgid "The importing of the theme options has failed..."
+msgstr "主题选项的导入失败了…"
+
+#: functions.php:247
+msgid "The importing of the theme options has failed"
+msgstr "主题选项的导入失败了"
+
+#: functions.php:248
+msgid "Finished importing the demo theme options..."
+msgstr "完成导入演示主题选项…"
+
+#: functions.php:250
+msgid "Importing posts | Step"
+msgstr "正在导入文章"
+
+#: functions.php:251
+msgid "Error:"
+msgstr "错误："
+
+#: functions.php:252
+msgid "You can reload the page and try again."
+msgstr "你可以重新载入页面，然后再试一次。"
+
+#: functions.php:483 functions.php:533
+msgid ""
+"A <strong>valid purchase code</strong> is required for automatic updates."
+msgstr "自动更新过程需要一个<strong>有效的许可证密匙</strong>。"
+
+#: functions.php:494 functions.php:544
+msgid "Purchase code not updated. We will keep the existing one."
+msgstr "没有更新申购代码。我们将保持现有之一。"
+
+#: functions.php:497 functions.php:547
+msgid ""
+"Your <strong>purchase code is valid</strong>. Thank you! Enjoy one-click "
+"automatic updates."
+msgstr "您的<strong许可证密匙有效</strong>。谢谢！请单击一次实现自动更新。"
+
+#: functions.php:504 functions.php:554
+msgid "Purchase code ( e.g. 9g2b13fa-10aa-2267-883a-9201a94cf9b5 )"
+msgstr "购买代码 ( e.g. 9g2b13fa-10aa-2267-883a-9201a94cf9b5 )"
+
+#: functions.php:505 functions.php:555
+msgid "Enter your purchase code and <strong>hit return/enter</strong>."
+msgstr "请输入您的许可证密匙并<strong>按确认</strong>."
+
+#: functions.php:507 functions.php:556
+msgid ""
+"Find out how to <a href=\"https://help.market.envato.com/hc/en-us/"
+"articles/202822600-Where-Is-My-Purchase-Code-\" target=\"_blank\">get your "
+"purchase code</a>."
+msgstr ""
+"<a href=\"https://help.market.envato.com/hc/en-us/articles/202822600-Where-"
+"Is-My-Purchase-Code-\" target=\"_blank\">获取您的许可证密匙</a>."
+
+#: functions.php:572
+msgid ""
+"<a href=\"%s\">Please enter your purchase code</a> to get automatic updates "
+"for <b>%s</b>."
+msgstr "<a href=\"%s\">请输入您的申购代码</a>获取<b>％的</b>自动更新。"
+
+#: functions.php:618
+msgid ""
+"We are sorry but we couldn't connect to the verification server. Please try "
+"again later."
+msgstr "我们无法连接到验证服务器。请稍后再试。"
+
+#: functions.php:631
+msgid ""
+"Your purchase's support period has ended. Please extend it to receive "
+"automatic updates."
+msgstr "你的购买支持期已经结束。请续费接到自动更新。"
+
+#: functions.php:633
+msgid "Could not find a sale with this purchase code. Please double check."
+msgstr "找不到与此申购代码出售。请仔细检查。"
+
+#: functions.php:640
+msgid ""
+"Please enter a valid purchase code. Make sure to get all the characters."
+msgstr "请输入一个有效的采购代码。请务必让所有的字符。"
+
+#: functions.php:707
+msgid "You can also create an account with a social network."
+msgstr "您也可以与社交网络创建一个帐户。"
+
+#: header.php:24
+msgid "Skip to content"
+msgstr "跳转到的内容"
+
+#: inc/activation.php:23 inc/integrations/wp-job-manager.php:403
+#: inc/widgets.php:428
+msgid "Gallery Images"
+msgstr "相册图像"
+
+#: inc/activation.php:30 inc/activation.php:59
+msgid "Gallery Image"
+msgstr "图片相册"
+
+#: inc/activation.php:41
+msgid "Hero Area"
+msgstr "推荐区域"
+
+#: inc/activation.php:42
+msgid ""
+"Add an image or a video to be used as a Background for the Hero Area on the "
+"Front Page"
+msgstr "添加一个图像或视频作為背景的推荐区域域在头版"
+
+#: inc/activation.php:43
+msgid "Tip: Uploading"
+msgstr "正在上传中"
+
+#: inc/activation.php:44
+msgid "multiple images and/or videos"
+msgstr "多个图像/或多个视频"
+
+#: inc/activation.php:45
+msgid "will"
+msgstr "将"
+
+#: inc/activation.php:46
+msgid "randomly"
+msgstr "随机"
+
+#: inc/activation.php:47
+msgid "pick one when page is loaded"
+msgstr "在加载页时选择一个"
+
+#: inc/activation.php:65
+msgid "Playlist"
+msgstr "播放列表"
+
+#: inc/activation.php:73
+msgid "Front Page &raquo; Search Fields"
+msgstr "头版»搜索字段"
+
+#: inc/activation.php:73
+msgid "<p>Choose what fields to show in the hero area of this front page.</p>"
+msgstr "<p>选择哪些领域在此头版的英雄区显示。 </p>"
+
+#: inc/activation.php:83
+msgid "Search Fields"
+msgstr "搜索字段"
+
+#: inc/activation.php:88 job_manager/job-filters-hero.php:128
+#: template-parts/header-fields.php:85
+msgid "Keywords"
+msgstr "关键字"
+
+#: inc/activation.php:89 job_manager/job-filters-hero.php:143
+#: job_manager/job-filters-hero.php:146 job_manager/job-filters-hero.php:150
+#: job_manager/job-filters.php:87 job_manager/job-filters.php:89
+msgid "Location"
+msgstr "所在地"
+
+#: inc/activation.php:90 inc/integrations/wp-job-manager.php:85
+#: inc/widgets.php:343
+msgid "Categories"
+msgstr "类别"
+
+#: inc/activation.php:98
+msgid "Front Page &raquo; Highlighted Categories"
+msgstr "首页&raquo;突出的类别"
+
+#: inc/activation.php:98
+msgid ""
+"<p>You can select which categories to highlight, by adding their <em>slugs</"
+"em>, separated by a comma: <em>food, hotels, restaurants</em></p><p> You can "
+"change their <em>shown name</em> (in case it is too long) with this pattern: "
+"<em>slug (My Custom Name)</em></p>"
+msgstr ""
+"<p>你可以选择突出哪些类别，加入他们的<em>slugs</em>, 用逗号隔开: <em>食品、酒"
+"店、餐馆</em></p><p> 你可以改变他们的<em>显示名称</em>如果它太长了）这一模"
+"式: <em>slug （我的自定义名称）</em></p>"
+
+#: inc/activation.php:108
+msgid "Frontend Categories"
+msgstr "前端分类"
+
+#: inc/config.php:61
+msgid "Style Presets"
+msgstr "预设样式"
+
+#: inc/config.php:65
+msgid "Select a style:"
+msgstr "选择风格："
+
+#: inc/config.php:66
+msgid ""
+"Conveniently change the design of your site with built-in style presets. "
+"Easy as pie."
+msgstr "预设内置风格便于网站设计的转换。简单实用。"
+
+#. Theme Name of the plugin/theme
+#: inc/config.php:71
+msgid "Listable"
+msgstr ""
+
+#: inc/config.php:173
+msgid "Royal"
+msgstr ""
+
+#: inc/config.php:274
+msgid "Silkberry"
+msgstr ""
+
+#: inc/config.php:371
+msgid "Orangina"
+msgstr ""
+
+#: inc/config.php:471
+msgid "Jolly"
+msgstr ""
+
+#: inc/config.php:574
+msgid "Navy"
+msgstr ""
+
+#: inc/config.php:653
+msgid "Grass"
+msgstr ""
+
+#: inc/config.php:744
+msgid "Theme Options"
+msgstr "主题选项"
+
+#: inc/config.php:747
+msgid "General"
+msgstr "一般条款"
+
+#: inc/config.php:751
+msgid "Footer Copyright Text"
+msgstr "底部版权信息"
+
+#: inc/config.php:753
+msgid ""
+"Copyright &copy; 2017 Company Inc.   &bull;   Address  &bull;   Tel: "
+"42-898-4363"
+msgstr "版权所有 © 2017年公司。  &bull; 地址 &bull; 电话:42-898-4363"
+
+#: inc/config.php:760
+msgid "Map Options"
+msgstr "地图选项"
+
+#: inc/config.php:764
+msgid "Mapbox Integration (optional)"
+msgstr "地图盒子集成（可选）"
+
+#: inc/config.php:769
+msgid "We are offering integration with the"
+msgstr "我们提供集成的"
+
+#: inc/config.php:770
+msgid "Mapbox"
+msgstr "地图盒子"
+
+#: inc/config.php:771
+msgid "service, so you can have better looking and highly performance maps"
+msgstr "服务，这样可以更加吸引眼球和具有高性能地图"
+
+#: inc/config.php:772
+msgid "Get a FREE token"
+msgstr "得到一个免费的标记"
+
+#: inc/config.php:773
+msgid ""
+"and paste it below. If there is nothing added, we will fallback to the "
+"Google Maps service"
+msgstr "并粘贴在下面。如果没有什么补充，我们将返回谷歌地图服务"
+
+#: inc/config.php:778
+msgid "Mapbox Style"
+msgstr "自定义地图风格"
+
+#: inc/config.php:790
+msgid ""
+"Custom styles works only if you have set a valid Mapbox API token in the "
+"field above."
+msgstr "在上述领域设置了有效的自定义地图（Mapbox），自定义风格才有效。"
+
+#: inc/config.php:794
+msgid "Google Maps API key"
+msgstr "Google 地图 API 密钥"
+
+#: inc/config.php:798
+msgid ""
+"To use the Google Maps library you must authenticate your application with "
+"an API key."
+msgstr "要使用谷歌地图库，您必须验证拥有API密钥的应用程序。"
+
+#: inc/config.php:799
+msgid "Get a Key"
+msgstr "获得从一个key"
+
+#: inc/config.php:806
+msgid "Custom JavaScript"
+msgstr "自定义JavaScript"
+
+#: inc/config.php:810 inc/config.php:862
+msgid "Header"
+msgstr "头部"
+
+#: inc/config.php:811
+msgid ""
+"Easily add Custom Javascript code. This code will be loaded in the <head> "
+"section."
+msgstr "轻松地添加自定义 Javascript 代码。此代码将在加载<head>区。"
+
+#: inc/config.php:816 inc/config.php:1594
+msgid "Footer"
+msgstr "底部"
+
+#: inc/config.php:817
+msgid ""
+"You can paste here your Google Analytics tracking code (or for what matters "
+"any tracking code) and we will put it on every page."
+msgstr ""
+"您可以在这里粘贴您的谷歌分析跟踪代码（或任何其他跟踪代码），我们将把它放在每"
+"一页。"
+
+#: inc/config.php:824
+msgid "Demo Data"
+msgstr "演示数据"
+
+#: inc/config.php:825
+msgid ""
+"If you would like to have a \"ready to go\" website as the Listable's demo "
+"page here is the button"
+msgstr "如果你想有一个“整装待发”网站作为演示页面，可选择此按钮"
+
+#: inc/config.php:835
+msgid "(Note: We cannot serve you the original images due the "
+msgstr "（注：我们不能为您提供原始图像，原因在于"
+
+#: inc/config.php:837
+msgid "Import demo data"
+msgstr "导入演示数据"
+
+#: inc/config.php:843
+msgid ""
+"Please wait a few minutes (between 1 and 3 minutes usually, but depending on "
+"your hosting it can take longer) and "
+msgstr ""
+"请稍等几分钟(通常1 - 3分钟,但根据您所使用的服务器，可能需要花费更长的时间)"
+
+#: inc/config.php:844 inc/tutorials.php:171 inc/tutorials.php:207
+msgid "don't reload the page"
+msgstr "请勿重新加载页面"
+
+#: inc/config.php:845 inc/tutorials.php:172 inc/tutorials.php:208
+msgid "You will be notified as soon as the import has finished!"
+msgstr "导入完成后，会通知您！"
+
+#: inc/config.php:858
+msgid "&#x1f4bb; Layout"
+msgstr "&#x1f4bb; 布局"
+
+#: inc/config.php:867
+msgid "Logo Height"
+msgstr "Logo高度"
+
+#: inc/config.php:889
+msgid "Header Vertical Margins"
+msgstr "顶部垂直边距"
+
+#: inc/config.php:917
+msgid "Menu Items Spacing"
+msgstr "菜单项间距"
+
+#. Template Name of the plugin/theme
+#: inc/config.php:944 inc/widgets.php:622 inc/widgets.php:939
+#: inc/widgets.php:1266 inc/widgets.php:1421 inc/widgets.php:1675
+msgid "Front Page"
+msgstr "首页"
+
+#: inc/config.php:949 inc/config.php:1001
+msgid "Container Width"
+msgstr "播放器器的宽度"
+
+#: inc/config.php:969
+msgid "Sections Vertical Margins"
+msgstr "部分垂直边距"
+
+#: inc/config.php:996 inc/widgets.php:19 inc/widgets.php:188
+msgid "Content"
+msgstr "内容"
+
+#: inc/config.php:1030
+msgid "Colors"
+msgstr "颜色"
+
+#: inc/config.php:1033
+msgid "Site Header"
+msgstr "网站标题"
+
+#: inc/config.php:1038
+msgid "Transparent on Front Page Hero"
+msgstr "首页信息透明"
+
+#: inc/config.php:1042
+msgid "Header Background Color"
+msgstr "头部背景颜色"
+
+#: inc/config.php:1082
+msgid "Site Title Color"
+msgstr "网站标题颜色"
+
+#: inc/config.php:1095
+msgid "Search Color"
+msgstr "搜索颜色"
+
+#: inc/config.php:1108
+msgid "Nav Link Color"
+msgstr "导航链接颜色"
+
+#: inc/config.php:1143
+msgid "Nav Active Color"
+msgstr "激活颜色"
+
+#: inc/config.php:1181
+msgid "Nav Button Color"
+msgstr "按钮颜色"
+
+#: inc/config.php:1196
+msgid "Main Content"
+msgstr "主要内容"
+
+#: inc/config.php:1200
+msgid "Content Background"
+msgstr "内容背景"
+
+#: inc/config.php:1225
+msgid "Page Background"
+msgstr "页面背景"
+
+#: inc/config.php:1267
+msgid "Page Titles Color"
+msgstr "标题颜色"
+
+#: inc/config.php:1292
+msgid "Page Subtitles Color"
+msgstr "网页副标题颜色"
+
+#: inc/config.php:1304 inc/config.php:1462 inc/config.php:1580
+#: inc/config.php:1610
+msgid "Text Color"
+msgstr "文字颜色"
+
+#: inc/config.php:1355
+msgid "Buttons Color"
+msgstr "按钮颜色"
+
+#: inc/config.php:1394
+msgid "Cards"
+msgstr "卡片"
+
+#: inc/config.php:1398
+msgid "Cards Background"
+msgstr "卡背景"
+
+#: inc/config.php:1446
+msgid "Title Color"
+msgstr "标题颜色"
+
+#: inc/config.php:1476
+msgid "Icons Color"
+msgstr "图标的颜色"
+
+#: inc/config.php:1491
+msgid "Icons Border Color"
+msgstr "图标边框颜色"
+
+#: inc/config.php:1514
+msgid "Icon Background Color"
+msgstr "图标背景颜色"
+
+#: inc/config.php:1528
+msgid "Pin Background Color"
+msgstr "标记背景颜色"
+
+#: inc/config.php:1544
+msgid "Pin Color"
+msgstr "标记颜色"
+
+#: inc/config.php:1564
+msgid "Pre Footer"
+msgstr "Pre - 页脚"
+
+#: inc/config.php:1568 inc/config.php:1598
+msgid "Background"
+msgstr "背景"
+
+#: inc/config.php:1622
+msgid "Credits Color"
+msgstr "积分颜色"
+
+#: inc/config.php:1636
+msgid "Other Colors"
+msgstr "其他颜色"
+
+#: inc/config.php:1640
+msgid "Accent Color"
+msgstr "强调色"
+
+#: inc/config.php:1712
+msgid "Meta Fields Color"
+msgstr "元字段颜色"
+
+#: inc/config.php:1787
+msgid "Micro Elements"
+msgstr "微量元素"
+
+#: inc/config.php:1818
+msgid "Fonts"
+msgstr "字体"
+
+#: inc/config.php:1821
+msgid "Site Title"
+msgstr "网站标题"
+
+#: inc/config.php:1826
+msgid "The font used for Site Title when you do not have a Logo image."
+msgstr "当您没有图案logo,用于网页标题的字体库"
+
+#: inc/config.php:1835 inc/config.php:1912 inc/config.php:2074
+msgid "Font Size"
+msgstr "字体大小"
+
+#: inc/config.php:1855 inc/config.php:1933 inc/config.php:2095
+msgid "Text Transform"
+msgstr "文字大小写"
+
+#: inc/config.php:1876 inc/config.php:1955 inc/config.php:2117
+msgid "Letter Spacing"
+msgstr "字母间距"
+
+#: inc/config.php:1897 inc/config.php:1901
+msgid "Navigation Text"
+msgstr "导航文字"
+
+#: inc/config.php:1977
+msgid "Body Text"
+msgstr "正文文本"
+
+#: inc/config.php:1981
+msgid "Body Font"
+msgstr "正文字体"
+
+#: inc/config.php:2012
+msgid "Page Titles"
+msgstr "页面标题"
+
+#: inc/config.php:2016
+msgid "Headings"
+msgstr "标题"
+
+#: inc/config.php:2037 inc/config.php:2041
+msgid "Page Subtitles"
+msgstr "页面标题"
+
+#: inc/config.php:2060 inc/config.php:2064
+msgid "Card Title Font"
+msgstr "卡片标题字体"
+
+#: inc/config.php:2139 inc/config.php:2143
+msgid "Card Font"
+msgstr "卡片字体"
+
+#: inc/config.php:2153 inc/config.php:2157
+msgid "Meta & Forms"
+msgstr "元素 & 形式"
+
+#: inc/config.php:2205
+msgid "Logo while on Transparent Hero Area"
+msgstr "标志而透明的推荐区"
+
+#: inc/config.php:2206
+msgid "Replace the default logo on the Front Page Hero."
+msgstr "更换头版英雄默认的标志。"
+
+#: inc/extras.php:95
+msgid "Customize Front Page Sections"
+msgstr "自定义前页部分"
+
+#: inc/extras.php:114
+msgid "Customize Listings Layout"
+msgstr "自定义列表布局"
+
+#: inc/extras.php:139 inc/extras.php:150
+msgid "Page Subtitle"
+msgstr "页面标题"
+
+#: inc/extras.php:141
+msgid ""
+"This is the subtitle that will be shown in the page's Hero Area, below the "
+"page title."
+msgstr "副标题将显示在主页面主标题下方区域"
+
+#: inc/extras.php:562
+msgid "Your name"
+msgstr "你的名字"
+
+#: inc/extras.php:563
+msgid "your@email.com"
+msgstr "@email.com"
+
+#: inc/extras.php:688 inc/extras.php:695
+msgid "Wrong Password"
+msgstr "错误密码"
+
+#: inc/extras.php:705
+msgid "&#x1f4bc; Listing URL Base"
+msgstr ""
+
+#: inc/extras.php:712
+msgid "&#x1f4bc; Listing Category Base"
+msgstr ""
+
+#: inc/extras.php:719
+msgid "&#x1f4bc; Listing Tag Base"
+msgstr ""
+
+#: inc/extras.php:758
+msgctxt "slug"
+msgid "listings"
+msgstr ""
+
+#: inc/extras.php:766
+msgctxt "slug"
+msgid "listing-category"
+msgstr ""
+
+#: inc/extras.php:774
+msgctxt "slug"
+msgid "listing-tag"
+msgstr ""
+
+#: inc/extras.php:831
+msgid "User Menu"
+msgstr "用户菜单"
+
+#: inc/extras.php:840 inc/extras.php:841
+#: plugins/login-with-ajax/modal/widget_out.php:35
+msgid "Log In"
+msgstr "登录"
+
+#: inc/extras.php:844 inc/extras.php:845
+msgid "Log Out"
+msgstr "注销"
+
+#: inc/extras.php:848
+msgid "Welcome!"
+msgstr "欢迎！"
+
+#: inc/extras.php:849
+msgid "Current Username"
+msgstr "当前用户名"
+
+#: inc/extras.php:883
+msgid "Add to Menu"
+msgstr "添加到菜单"
+
+#: inc/import/demo-data/demo_data.php:4
+msgid "Main Menu"
+msgstr "主菜单"
+
+#: inc/import/import-demo-listing-categories.php:37
+#: inc/import/import-demo-listing-tags.php:37
+msgid "The Auto importing script could not be loaded. Please use the  "
+msgstr "无法加载自动导入脚本。请使用"
+
+#: inc/import/import-demo-listing-categories.php:38
+#: inc/import/import-demo-listing-tags.php:38
+msgid "WordPress default import"
+msgstr "WordPress默认的导入"
+
+#: inc/import/import-demo-listing-categories.php:39
+#: inc/import/import-demo-listing-tags.php:39
+msgid ""
+"and import the .XML file provided in the archive you've received on purchase "
+"manually."
+msgstr "导入您所购买并接收到的档案中的 .XML 文件。"
+
+#: inc/import/wordpress-importer/parsers.php:44
+#: inc/import/wordpress-importer/parsers.php:75
+#: inc/import/wordpress-importer/parsers.php:83
+msgid "There was an error when reading this WXR file"
+msgstr "在读取WXR文件出现了错误"
+
+#: inc/import/wordpress-importer/parsers.php:45
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr "详情显示在上面。导入工具将使用不同的方式尝试…"
+
+#: inc/import/wordpress-importer/parsers.php:88
+#: inc/import/wordpress-importer/parsers.php:94
+#: inc/import/wordpress-importer/parsers.php:356
+#: inc/import/wordpress-importer/parsers.php:574
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr "没有WXR文件，丢失/无效的WXR版本号"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:136
+#: inc/import/wordpress-importer/wordpress-importer.php:145
+#: inc/import/wordpress-importer/wordpress-importer.php:195
+#: inc/import/wordpress-importer/wordpress-importer.php:200
+#: inc/import/wordpress-importer/wordpress-importer.php:210
+msgid "Sorry, there has been an error."
+msgstr "对不起，有一个错误。"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:137
+msgid "The file does not exist, please try again."
+msgstr "文件不存在，请再试。"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:180
+msgid "All done."
+msgstr "全部完成"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:180
+msgid "Have fun!"
+msgstr "使用愉快"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:201
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr "导出文件不在<code>%s</code>里。貌似是权限问题。"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:219
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr "WXR文件（版本%s）不被支持。请考虑更新。"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:243
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr "失败导入作者%s。其文章归于当前用户。"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:270
+msgid "Assign Authors"
+msgstr "指定作者"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:271
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+"如果你想编辑和保存导入的内容更容易，你可能要重新分配的进口项目的作者对这个站"
+"点的现有用户。例如，您可能希望将所有条目导入为<code>admin</code>"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:273
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user's role will be set as %s. Manually changing the "
+"new user's details will be necessary."
+msgstr ""
+"如果创建一个新用户的WordPress，新密码将随机产生和新用户的角色将被设置为%s手动"
+"更改新用户的细节是必要的。"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:283
+msgid "Import Attachments"
+msgstr "导入附件"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:286
+msgid "Download and import file attachments"
+msgstr "下载和导入文件附件"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:291
+#: inc/template-tags.php:514 woocommerce/single-product-reviews.php:72
+msgid "Submit"
+msgstr "提交"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:305
+msgid "Import author:"
+msgstr "导入作者："
+
+#: inc/import/wordpress-importer/wordpress-importer.php:319
+msgid "or create new user with login name:"
+msgstr "或创建新的用户登录名："
+
+#: inc/import/wordpress-importer/wordpress-importer.php:322
+msgid "as a new user:"
+msgstr "创建新的用户名："
+
+#: inc/import/wordpress-importer/wordpress-importer.php:330
+msgid "assign posts to an existing user:"
+msgstr "以现有的用户分配文章："
+
+#: inc/import/wordpress-importer/wordpress-importer.php:332
+msgid "or assign posts to an existing user:"
+msgstr "或将文章分配给现有用户"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:337
+msgid "- Select -"
+msgstr "- 选择 -"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:392
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr "无法创建 %s 新使用者 相关文章将分配给当前使用者"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:450
+msgid "Failed to import category %s"
+msgstr "失败导入分类%s"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:497
+msgid "Failed to import post tag %s"
+msgstr "失败导入文章标签%s"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:558
+#: inc/import/wordpress-importer/wordpress-importer.php:736
+#: inc/import/wordpress-importer/wpgrade-import-class.php:280
+msgid "Failed to import %s %s"
+msgstr "失败导入%s %s"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:607
+#: inc/import/wordpress-importer/wpgrade-import-class.php:136
+msgid "Failed to import \"%s\": Invalid post type %s"
+msgstr "无法导入 \"%s\":文章类型无效 %s"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:630
+msgid "%s \"%s\" already exists."
+msgstr "%s“%s”已存在。"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:700
+#: inc/import/wordpress-importer/wpgrade-import-class.php:244
+msgid "Failed to import %s \"%s\""
+msgstr "无法导入%s \"%s\""
+
+#: inc/import/wordpress-importer/wordpress-importer.php:880
+msgid "Menu item skipped due to missing menu slug"
+msgstr "菜单项目略过源于丢失菜单别名"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:888
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr "菜单项目略过源于无效菜单别名：%s"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:991
+msgid "Fetching attachments is not enabled"
+msgstr "获取附件没有启用"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:1007
+msgid "Invalid file type"
+msgstr "无效文章类型"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:1054
+msgid "Remote server did not respond"
+msgstr "远程服务器没有响应"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:1061
+msgid "Remote server returned error response %1$d %2$s"
+msgstr "远程服务返回了错误%1$d %2$s"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:1069
+msgid "Remote file is incorrect size"
+msgstr "远程文件大小不对"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:1075
+msgid "Zero size file downloaded"
+msgstr "零大小的文件下载"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:1082
+msgid "Remote file is too large, limit is %s"
+msgstr "远程文件太多，限制是%s"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:1190
+msgid "Import WordPress"
+msgstr "输入 Wordpress"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:1197
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr "输入工具有新版本请更新到 %s 版本确保与汇出档的相容性"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:1212
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we'll import the "
+"posts, pages, comments, custom fields, categories, and tags into this site."
+msgstr ""
+"你好！您的WordPress eXtended RSS（WXR）文件上传到这个网站，我们将导入的文章，"
+"页面，评论，自定义字段，类别和标签。"
+
+#: inc/import/wordpress-importer/wordpress-importer.php:1213
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr "选择要导入的WXR（.xml）文件，然后单击上传文件并导入。"
+
+#: inc/integrations/facetwp.php:224
+msgid "Facets Advanced Filtering"
+msgstr "面先进的过滤"
+
+#: inc/integrations/facetwp.php:225
+msgid ""
+"Add filtering fields to your site and allow your visitors to better search "
+"through the listings"
+msgstr "添加筛选领域到您的网站，让你的访问者能够更好地通过目录进行搜索"
+
+#: inc/integrations/facetwp.php:228
+msgid "Available Facets"
+msgstr "可用构面"
+
+#: inc/integrations/facetwp.php:229
+msgid "Drag and drop the facets you'd like to add into the right side boxes"
+msgstr "拖拉到你想加入到的右边框。"
+
+#: inc/integrations/facetwp.php:239
+msgid "Listing Archive"
+msgstr "地图存档"
+
+#: inc/integrations/facetwp.php:240
+msgid ""
+"This area is where most of your facets should go (except the ones already "
+"shown in the Navigation Bar)"
+msgstr "大多数是到这个区域（除了在导航栏已经显示的那些）"
+
+#: inc/integrations/facetwp.php:250
+msgid "Facets dragged here will be hidden under an \"More Filters\" button"
+msgstr "拖到这里“更多过滤器”按钮被隐藏"
+
+#: inc/integrations/facetwp.php:261
+msgid "Navigation Bar"
+msgstr "导航栏"
+
+#: inc/integrations/facetwp.php:262
+msgid ""
+"Site-wide available facets. Choose wisely a maximum of two of the most "
+"essential filters -- the rest of them go to the Listings Archive section."
+msgstr "站点范围内可用面。选出最重要的2个过滤器 - 其他的为清单归档部分。"
+
+#: inc/integrations/facetwp.php:272
+msgid "Front Page Hero"
+msgstr "前页"
+
+#: inc/integrations/facetwp.php:273
+msgid ""
+"Considering that Navigation Bar facets will not be shown on the Front Pagem "
+"feel free to use a similar configuration."
+msgstr "考虑到导航栏不会显示在首页的情况下，可使用类似的配置。"
+
+#: inc/integrations/woocommerce.php:67
+#: woocommerce/checkout/form-checkout.php:54
+msgid "Place order"
+msgstr "立即订购"
+
+#: inc/integrations/wp-job-manager-field-editor.php:47
+msgid "Listable Social Icons"
+msgstr "可列社会图标"
+
+#: inc/integrations/wp-job-manager-field-editor.php:48
+msgid "Before Social Icons"
+msgstr "社会图标之前"
+
+#: inc/integrations/wp-job-manager-field-editor.php:49
+msgid "After Social Icons"
+msgstr "社会图标后"
+
+#: inc/integrations/wp-job-manager-products.php:122
+#: inc/integrations/wp-job-manager-tags.php:55
+#: inc/integrations/wp-job-manager.php:14
+#: inc/integrations/wp-job-manager.php:293
+#: inc/integrations/wp-job-manager.php:302 inc/widgets.php:19
+#: inc/widgets.php:29 inc/widgets.php:39 inc/widgets.php:97 inc/widgets.php:188
+#: inc/widgets.php:244 inc/widgets.php:274 inc/widgets.php:343
+#: inc/widgets.php:399 inc/widgets.php:428 inc/widgets.php:483
+msgid "Listing"
+msgstr "场所"
+
+#: inc/integrations/wp-job-manager-products.php:122
+msgid "Products"
+msgstr "产品"
+
+#: inc/integrations/wp-job-manager-products.php:124
+msgid "The products linked to the current listing."
+msgstr "与当前列表相关联的产品。"
+
+#: inc/integrations/wp-job-manager-products.php:213 inc/widgets.php:572
+#: inc/widgets.php:836 inc/widgets.php:1159 inc/widgets.php:1366
+#: inc/widgets.php:1583 inc/widgets.php:1615 inc/widgets.php:1886
+msgid "Title:"
+msgstr "标题："
+
+#: inc/integrations/wp-job-manager-products.php:218 inc/widgets.php:841
+#: inc/widgets.php:1164 inc/widgets.php:1371 inc/widgets.php:1891
+msgid "Subtitle:"
+msgstr "副标题："
+
+#: inc/integrations/wp-job-manager-products.php:247
+msgid "Make an Online Reservation"
+msgstr "网上预订"
+
+#: inc/integrations/wp-job-manager-products.php:248
+msgid "Powered by WooCommerce Plugin"
+msgstr "WooCommerce插件"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/integrations/wp-job-manager-tags.php:25
+msgid "%1$s"
+msgstr "%1$s"
+
+#: inc/integrations/wp-job-manager-tags.php:55
+msgid "Tags"
+msgstr "标签"
+
+#: inc/integrations/wp-job-manager-tags.php:56
+msgid "A list of tags or amenities."
+msgstr "标签或设施列表。"
+
+#: inc/integrations/wp-job-manager.php:15
+#: inc/integrations/wp-job-manager.php:230
+#: job_manager/content-single-job_listing-preview.php:68
+#: job_manager/content-single-job_listing.php:46 job_manager/job-filters.php:57
+#: job_manager/job-filters.php:157
+msgid "Listings"
+msgstr "场所列表"
+
+#: inc/integrations/wp-job-manager.php:21
+#: inc/integrations/wp-job-manager.php:58
+#: inc/integrations/wp-job-manager.php:87
+msgid "All %s"
+msgstr "全部 %s"
+
+#: inc/integrations/wp-job-manager.php:22
+msgid "Add New"
+msgstr "新建场所"
+
+#: inc/integrations/wp-job-manager.php:23
+msgid "Add %s"
+msgstr "新增 %s"
+
+#: inc/integrations/wp-job-manager.php:24 job_manager/job-dashboard.php:46
+#: job_manager/job-dashboard.php:62
+msgid "Edit"
+msgstr "编辑"
+
+#. translators: %s: Name of current post
+#: inc/integrations/wp-job-manager.php:25
+#: inc/integrations/wp-job-manager.php:61
+#: inc/integrations/wp-job-manager.php:90 template-parts/content-page.php:46
+msgid "Edit %s"
+msgstr "编辑 %s"
+
+#: inc/integrations/wp-job-manager.php:26
+msgid "New %s"
+msgstr "新 %s"
+
+#: inc/integrations/wp-job-manager.php:27
+#: inc/integrations/wp-job-manager.php:28
+msgid "View %s"
+msgstr "查看 %s"
+
+#: inc/integrations/wp-job-manager.php:29
+#: inc/integrations/wp-job-manager.php:57
+#: inc/integrations/wp-job-manager.php:86
+msgid "Search %s"
+msgstr "搜索 %s"
+
+#: inc/integrations/wp-job-manager.php:30
+msgid "No %s found"
+msgstr "未找到 %s"
+
+#: inc/integrations/wp-job-manager.php:31
+msgid "No %s found in trash"
+msgstr "没有 %s 在垃圾箱"
+
+#: inc/integrations/wp-job-manager.php:32
+#: inc/integrations/wp-job-manager.php:59
+#: inc/integrations/wp-job-manager.php:88
+msgid "Parent %s"
+msgstr "父级 %s"
+
+#: inc/integrations/wp-job-manager.php:34
+msgid "This is where you can create and manage %s."
+msgstr "在这里创建和管理 %s。"
+
+#: inc/integrations/wp-job-manager.php:49
+msgid "Listing Type"
+msgstr "地图类型"
+
+#: inc/integrations/wp-job-manager.php:50
+msgid "Listings Types"
+msgstr "店铺类型"
+
+#: inc/integrations/wp-job-manager.php:56
+msgid "Types"
+msgstr "种类"
+
+#: inc/integrations/wp-job-manager.php:60
+#: inc/integrations/wp-job-manager.php:89
+msgid "Parent %s:"
+msgstr "父级 %s:"
+
+#: inc/integrations/wp-job-manager.php:62
+#: inc/integrations/wp-job-manager.php:91
+msgid "Update %s"
+msgstr "更新 %s"
+
+#: inc/integrations/wp-job-manager.php:63
+#: inc/integrations/wp-job-manager.php:92
+msgid "Add New %s"
+msgstr "添加新%s"
+
+#: inc/integrations/wp-job-manager.php:64
+#: inc/integrations/wp-job-manager.php:93
+msgid "New %s Name"
+msgstr "新 %s名"
+
+#: inc/integrations/wp-job-manager.php:68
+msgctxt "Listing type slug - resave permalinks after changing this"
+msgid "listing-type"
+msgstr "场所-类型"
+
+#: inc/integrations/wp-job-manager.php:77
+msgid "Listing Category"
+msgstr "场所分类"
+
+#: inc/integrations/wp-job-manager.php:78
+msgid "Listings Categories"
+msgstr "场所分类"
+
+#: inc/integrations/wp-job-manager.php:97
+msgctxt "Listing category slug - resave permalinks after changing this"
+msgid "listing-category"
+msgstr ""
+
+#: inc/integrations/wp-job-manager.php:123
+#: inc/integrations/wp-job-manager.php:140
+msgid "Listing Tags"
+msgstr "场所标签"
+
+#: inc/integrations/wp-job-manager.php:124
+#: inc/integrations/wp-job-manager.php:141
+msgid "Listing Tag"
+msgstr "场所标签"
+
+#: inc/integrations/wp-job-manager.php:125
+msgid "Search Listing Tags"
+msgstr "搜索场所标签"
+
+#: inc/integrations/wp-job-manager.php:126
+msgid "Popular Tags"
+msgstr "热门标签"
+
+#: inc/integrations/wp-job-manager.php:127
+msgid "All Listing Tags"
+msgstr "所有场所标签"
+
+#: inc/integrations/wp-job-manager.php:128
+msgid "Parent Listing Tag"
+msgstr "主要场所标签"
+
+#: inc/integrations/wp-job-manager.php:129
+msgid "Parent Listing Tag:"
+msgstr "主要场所标签："
+
+#: inc/integrations/wp-job-manager.php:130
+msgid "Edit Listing Tag"
+msgstr "编辑地图标签"
+
+#: inc/integrations/wp-job-manager.php:131
+msgid "View Tag"
+msgstr "查看标签"
+
+#: inc/integrations/wp-job-manager.php:132
+msgid "Update Listing Tag"
+msgstr "更新场所标签"
+
+#: inc/integrations/wp-job-manager.php:133
+msgid "Add New Listing Tag"
+msgstr "添加新场所标签"
+
+#: inc/integrations/wp-job-manager.php:134
+msgid "New Listing Tag Name"
+msgstr "新场所标签名称"
+
+#: inc/integrations/wp-job-manager.php:135
+msgid "Separate tags with commas"
+msgstr "用逗号分隔标签"
+
+#: inc/integrations/wp-job-manager.php:136
+msgid "Add or remove tags"
+msgstr "添加或删除标签"
+
+#: inc/integrations/wp-job-manager.php:137
+msgid "Choose from the most used tags"
+msgstr "从最常用的标签中选择"
+
+#: inc/integrations/wp-job-manager.php:138
+msgid "No tags found."
+msgstr "找不到标签"
+
+#: inc/integrations/wp-job-manager.php:139
+msgid "No tags"
+msgstr "没有标签"
+
+#: inc/integrations/wp-job-manager.php:144
+msgctxt "permalink"
+msgid "listing-tag"
+msgstr "清单标签"
+
+#: inc/integrations/wp-job-manager.php:179
+#: inc/integrations/wp-job-manager.php:198 inc/widgets.php:1675
+msgid "Listing Regions"
+msgstr "场所区域"
+
+#: inc/integrations/wp-job-manager.php:180
+msgid "Region"
+msgstr "地区"
+
+#: inc/integrations/wp-job-manager.php:181
+msgid "Search Regions"
+msgstr "搜索区域"
+
+#: inc/integrations/wp-job-manager.php:182
+msgid "Popular Regions"
+msgstr "最受欢迎区域"
+
+#: inc/integrations/wp-job-manager.php:183 job_manager/job-filters-hero.php:147
+msgid "All Regions"
+msgstr "所有地区"
+
+#: inc/integrations/wp-job-manager.php:184
+msgid "Parent Region"
+msgstr "主要区域"
+
+#: inc/integrations/wp-job-manager.php:185
+msgid "Parent Region:"
+msgstr "主要区域："
+
+#: inc/integrations/wp-job-manager.php:186
+msgid "Edit Region"
+msgstr "编辑地区"
+
+#: inc/integrations/wp-job-manager.php:187
+msgid "View Region"
+msgstr "查看区域"
+
+#: inc/integrations/wp-job-manager.php:188
+msgid "Update Region"
+msgstr "更新区域"
+
+#: inc/integrations/wp-job-manager.php:189
+msgid "Add New Region"
+msgstr "添加新区域"
+
+#: inc/integrations/wp-job-manager.php:190
+msgid "New Region Name"
+msgstr "新区域名称"
+
+#: inc/integrations/wp-job-manager.php:191
+msgid "Separate regions with commas"
+msgstr "用逗号分隔区域"
+
+#: inc/integrations/wp-job-manager.php:192
+msgid "Add or remove regions"
+msgstr "添加或移除区域"
+
+#: inc/integrations/wp-job-manager.php:193
+msgid "Choose from the most used regions"
+msgstr "选择最常用的区域"
+
+#: inc/integrations/wp-job-manager.php:194
+msgid "No regions found."
+msgstr "未找到区域"
+
+#: inc/integrations/wp-job-manager.php:195
+msgid "No regions"
+msgstr "无区域"
+
+#: inc/integrations/wp-job-manager.php:196
+msgid "Regions"
+msgstr "选区"
+
+#: inc/integrations/wp-job-manager.php:197
+msgid "Listing Region"
+msgstr "场所区域"
+
+#: inc/integrations/wp-job-manager.php:201
+msgctxt "permalink"
+msgid "listing-region"
+msgstr "店铺 - 区域"
+
+#: inc/integrations/wp-job-manager.php:222
+msgid "Post a Listing"
+msgstr "发布一个场所"
+
+#: inc/integrations/wp-job-manager.php:226
+msgid "Listing Dashboard"
+msgstr "管理面板"
+
+#: inc/integrations/wp-job-manager.php:261
+msgid "FacetWP"
+msgstr "FacetWP"
+
+#: inc/integrations/wp-job-manager.php:297
+msgid "Submission"
+msgstr "提交"
+
+#: inc/integrations/wp-job-manager.php:323 inc/widgets.php:399
+msgid "Hours"
+msgstr "小时"
+
+#: inc/integrations/wp-job-manager.php:325
+#: inc/integrations/wp-job-manager.php:421
+msgid ""
+"Mon - Fri: 09:00 - 23:00 \n"
+"Sat - Sun: 17:00 - 23:00"
+msgstr ""
+"星期一 - 星期五: 09:00 - 23:00 \n"
+"星期六 - 星期天: 17:00 - 23:00"
+
+#: inc/integrations/wp-job-manager.php:331
+#: inc/integrations/wp-job-manager.php:428
+#: job_manager/content-single-job_listing-company.php:23
+msgid "Phone"
+msgstr "电话"
+
+#: inc/integrations/wp-job-manager.php:333
+#: inc/integrations/wp-job-manager.php:430
+msgid "e.g +42-898-4364"
+msgstr "例如 +400-000-4000"
+
+#: inc/integrations/wp-job-manager.php:373
+msgid "Listing Name"
+msgstr "场所名称"
+
+#: inc/integrations/wp-job-manager.php:374
+msgid "Your listing name"
+msgstr "您的场所名称"
+
+#: inc/integrations/wp-job-manager.php:377
+msgid "e.g Speciality Coffee Shop"
+msgstr "深圳创意名家1号工作站、F518创意前岸"
+
+#: inc/integrations/wp-job-manager.php:378
+msgid ""
+"Keep it short and descriptive as it will appear on search results instead of "
+"the link description"
+msgstr "请保持标签的简短，2-10个汉字之内最好"
+
+#: inc/integrations/wp-job-manager.php:382
+msgid "An overview of your listing and the things you love about it."
+msgstr "简要概述场所和你喜欢的事物"
+
+#: inc/integrations/wp-job-manager.php:385
+msgid "Choose one or more categories"
+msgstr "选择一个或多个类别"
+
+#: inc/integrations/wp-job-manager.php:387
+msgid "Listing category"
+msgstr "场所分类"
+
+#: inc/integrations/wp-job-manager.php:388
+msgid ""
+"Visitors can filter their search by the categories and amenities they want - "
+"so make sure you choose them wisely and include all the relevant ones"
+msgstr ""
+"游客可以过滤搜索他们想要的类别和设施,所以确保你的选择正确,包括所有相关信息"
+
+#: inc/integrations/wp-job-manager.php:393
+msgid "Add tags"
+msgstr "添加标签"
+
+#: inc/integrations/wp-job-manager.php:394
+msgid "Listing tags"
+msgstr "场所标签"
+
+#: inc/integrations/wp-job-manager.php:395
+msgid ""
+"Visitors can filter their search by the amenities too, so make sure you "
+"include all the relevant ones."
+msgstr "设置一些标签方便用户查找"
+
+#: inc/integrations/wp-job-manager.php:399
+msgid "e.g 34 Wigmore Street, London"
+msgstr "例如：广东省深圳市福田区福华三路深圳会展中心"
+
+#: inc/integrations/wp-job-manager.php:400
+msgid "Leave this blank if the location is not important."
+msgstr "如果没有详细地址就留空。"
+
+#: inc/integrations/wp-job-manager.php:411
+#: inc/integrations/wp-job-manager.php:416
+msgid "The first image will be shown on listing cards."
+msgstr "第一张图片将默认成为封面。"
+
+#: inc/integrations/wp-job-manager.php:413
+msgid "Logo"
+msgstr "图标"
+
+#: inc/integrations/wp-job-manager.php:419
+msgid "Hours of Operation"
+msgstr "营业时间"
+
+#: inc/integrations/wp-job-manager.php:422
+msgid "Feel free to change the text format to fit your needs."
+msgstr "你可以选择填写营业时间"
+
+#: inc/integrations/wp-job-manager.php:436
+msgid "e.g yourwebsite.com, London"
+msgstr "例如www.baidu.com"
+
+#: inc/integrations/wp-job-manager.php:437
+msgid "You can add more similar panels to better help the user fill the form"
+msgstr "您可以添加更多信息,方面用户快速精准的查找到您们"
+
+#: inc/integrations/wp-job-manager.php:576
+msgid "Position"
+msgstr "职务"
+
+#: inc/integrations/wp-job-manager.php:581
+msgid "Image"
+msgstr "图片"
+
+#: inc/integrations/wp-job-manager.php:595
+msgid "ID: %d"
+msgstr "ID: %d"
+
+#: inc/integrations/wp-job-manager.php:836
+msgid "Submit Listing"
+msgstr "提交信息"
+
+#: inc/integrations/wp-job-manager.php:837
+msgid "Edit listing"
+msgstr "编辑信息"
+
+#: inc/integrations/wp-job-manager.php:843
+msgid "Preview"
+msgstr "预览"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:336
+#: inc/required-plugins/required-plugins.php:92
+msgid "Install Required Plugins"
+msgstr "安装所需插件"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:337
+#: inc/required-plugins/required-plugins.php:93
+msgid "Install Plugins"
+msgstr "安装插件"
+
+#. translators: %s: plugin name.
+#: inc/required-plugins/class-tgm-plugin-activation.php:339
+#: inc/required-plugins/required-plugins.php:94
+msgid "Installing Plugin: %s"
+msgstr "安装插件：%s"
+
+#. translators: %s: plugin name.
+#: inc/required-plugins/class-tgm-plugin-activation.php:341
+msgid "Updating Plugin: %s"
+msgstr "更新插件: %s"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:342
+#: inc/required-plugins/required-plugins.php:96
+msgid "Something went wrong with the plugin API."
+msgstr "该插件API有问题。"
+
+#. translators: 1: plugin name(s).
+#: inc/required-plugins/class-tgm-plugin-activation.php:379
+#: inc/required-plugins/required-plugins.php:113
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:384
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:389
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:394
+#: inc/required-plugins/required-plugins.php:115
+msgid "Return to Required Plugins Installer"
+msgstr "返回所需的插件安装程序"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:395
+#: inc/required-plugins/class-tgm-plugin-activation.php:944
+#: inc/required-plugins/class-tgm-plugin-activation.php:2650
+#: inc/required-plugins/class-tgm-plugin-activation.php:3697
+msgid "Return to the Dashboard"
+msgstr "返回仪表盘"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:396
+#: inc/required-plugins/class-tgm-plugin-activation.php:3276
+#: inc/required-plugins/required-plugins.php:116
+msgid "Plugin activated successfully."
+msgstr "查件激活成功."
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:397
+#: inc/required-plugins/class-tgm-plugin-activation.php:3069
+msgid "The following plugin was activated successfully:"
+msgstr "成功激活了以下插件："
+
+#. translators: 1: plugin name.
+#: inc/required-plugins/class-tgm-plugin-activation.php:399
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "未执行任何操作, 插件%1$s已经激活."
+
+#. translators: 1: plugin name.
+#: inc/required-plugins/class-tgm-plugin-activation.php:401
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr "未执行激活插件，%s插件不兼容该主题，请更新插件"
+
+#. translators: 1: dashboard link.
+#: inc/required-plugins/class-tgm-plugin-activation.php:403
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "所有插件均已安装和激活. %1$s"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr "把這個通知"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:405
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr "有一个或多个要求或建议的插件安装，更新或激活。"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:406
+msgid "Please contact the administrator of this site for help."
+msgstr "请联系本站管理员获取帮助."
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:613
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "需要更新该插件才能很好的兼容你的主题"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:614
+msgid "Update Required"
+msgstr "必要更新"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:1051
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr "远程插件包不包含所需的文件夹，重命名失败"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:1051
+#: inc/required-plugins/class-tgm-plugin-activation.php:1054
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr "请联系插件提供商根据系统的指南打包他们的插件"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:1054
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr "远程插件包由多个文件组成，但没有打包在文件夹中"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:1238
+#: inc/required-plugins/class-tgm-plugin-activation.php:3065
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "和"
+
+#. translators: %s: version number
+#: inc/required-plugins/class-tgm-plugin-activation.php:2099
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2390
+msgid "Required"
+msgstr "必须"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2393
+msgid "Recommended"
+msgstr "推荐"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2409
+msgid "WordPress Repository"
+msgstr "WP库"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2412
+msgid "External Source"
+msgstr "外部源"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2415
+msgid "Pre-Packaged"
+msgstr "预包装"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2432
+msgid "Not Installed"
+msgstr "未安装"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2436
+msgid "Installed But Not Activated"
+msgstr "已安装但未激活"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2438
+msgid "Active"
+msgstr "启用"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2444
+msgid "Required Update not Available"
+msgstr "必要更新不可用"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2447
+msgid "Requires Update"
+msgstr "必要更新"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2450
+msgid "Update recommended"
+msgstr "推荐更新"
+
+#. translators: 1: install status, 2: update status
+#: inc/required-plugins/class-tgm-plugin-activation.php:2459
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s，%2$s"
+
+#. translators: 1: number of plugins.
+#: inc/required-plugins/class-tgm-plugin-activation.php:2505
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+
+#. translators: 1: number of plugins.
+#: inc/required-plugins/class-tgm-plugin-activation.php:2509
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+
+#. translators: 1: number of plugins.
+#: inc/required-plugins/class-tgm-plugin-activation.php:2513
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+
+#. translators: 1: number of plugins.
+#: inc/required-plugins/class-tgm-plugin-activation.php:2517
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2599
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "未知"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2607
+msgid "Installed version:"
+msgstr "已安装版本:"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2615
+msgid "Minimum required version:"
+msgstr "所需的最低版本:"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2627
+msgid "Available version:"
+msgstr "可用的版本："
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2650
+msgid "No plugins to install, update or activate."
+msgstr "无插件安装，更新或激活"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2664
+msgid "Plugin"
+msgstr "插件"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2665
+msgid "Source"
+msgstr "源"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2666
+msgid "Type"
+msgstr "类型"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2670
+msgid "Version"
+msgstr "系统版本"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2671
+#: woocommerce/myaccount/view-subscription.php:33
+#: woocommerce-bookings/myaccount/my-bookings.php:20
+#: woocommerce-bookings/myaccount/my-bookings.php:44
+msgid "Status"
+msgstr "状态"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/required-plugins/class-tgm-plugin-activation.php:2720
+msgid "Install %2$s"
+msgstr "安装 %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/required-plugins/class-tgm-plugin-activation.php:2725
+msgid "Update %2$s"
+msgstr "更新 %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/required-plugins/class-tgm-plugin-activation.php:2731
+msgid "Activate %2$s"
+msgstr "激活 %2$s"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2801
+msgid "Upgrade message from the plugin author:"
+msgstr "更新信息:"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2834
+msgid "Install"
+msgstr "安装"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2840
+msgid "Update"
+msgstr "更新"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2843
+msgid "Activate"
+msgstr "激活"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2874
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "未选择要安装的插件，没有执行任何操作。"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2876
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "未选择要更新的插件，没有执行任何操作。"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2917
+msgid "No plugins are available to be installed at this time."
+msgstr "此时没有可安装的插件。"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2919
+msgid "No plugins are available to be updated at this time."
+msgstr "此時沒有可用的外掛程式更新。"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:3025
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "未选择要启用的插件，没有执行任何操作。"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:3051
+msgid "No plugins are available to be activated at this time."
+msgstr "此时没有插件可以被激活。"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:3275
+msgid "Plugin activation failed."
+msgstr "插件激活失败。"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/required-plugins/class-tgm-plugin-activation.php:3615
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "正在更新插件 %1$s (%2$d/%3$d)"
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/required-plugins/class-tgm-plugin-activation.php:3618
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "安装时发生一个错误 %1$s: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name.
+#: inc/required-plugins/class-tgm-plugin-activation.php:3620
+msgid "The installation of %1$s failed."
+msgstr "%1$s的安装失败。"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:3624
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr "安装和激活过程开始。这个过程可能需要一段时间,请耐心等待。"
+
+#. translators: 1: plugin name.
+#: inc/required-plugins/class-tgm-plugin-activation.php:3626
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s 已成功安装并启用。"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:3626
+#: inc/required-plugins/class-tgm-plugin-activation.php:3634
+msgid "Show Details"
+msgstr "显示详情"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:3626
+#: inc/required-plugins/class-tgm-plugin-activation.php:3634
+msgid "Hide Details"
+msgstr "隐藏详情"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:3627
+msgid "All installations and activations have been completed."
+msgstr "已完成所有安装和激活。"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/required-plugins/class-tgm-plugin-activation.php:3629
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "安装和激活插件 %1$s (%2$d/%3$d)"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:3632
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr "安装过程开始。这个过程可能需要一段时间,请耐心等待。"
+
+#. translators: 1: plugin name.
+#: inc/required-plugins/class-tgm-plugin-activation.php:3634
+msgid "%1$s installed successfully."
+msgstr "%1$s 安裝成功"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:3635
+msgid "All installations have been completed."
+msgstr "所有安裝已完成。"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/required-plugins/class-tgm-plugin-activation.php:3637
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "正在安装插件 %1$s (%2$d/%3$d)"
+
+#: inc/required-plugins/required-plugins.php:97
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+
+#: inc/required-plugins/required-plugins.php:99
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+
+#: inc/required-plugins/required-plugins.php:101
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+
+#: inc/required-plugins/required-plugins.php:103
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+
+#: inc/required-plugins/required-plugins.php:105
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+
+#: inc/required-plugins/required-plugins.php:107
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+
+#: inc/required-plugins/required-plugins.php:109
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+
+#: inc/required-plugins/required-plugins.php:111
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+
+#: inc/required-plugins/required-plugins.php:114
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+
+#: inc/required-plugins/required-plugins.php:117
+msgid "All plugins installed and activated successfully. %s"
+msgstr "所有插件安装并成功激活。%s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:141 inc/template-tags.php:147
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:143
+msgid "Posted in %1$s"
+msgstr "发表在 %1$s"
+
+#: inc/template-tags.php:149
+msgid "Tagged %1$s"
+msgstr "标签 %1$s"
+
+#: inc/template-tags.php:155
+msgid "Leave a comment"
+msgstr "发表评论"
+
+#: inc/template-tags.php:155
+msgid "1 Comment"
+msgstr "1评论"
+
+#: inc/template-tags.php:155
+msgid "% Comments"
+msgstr "% 条评论"
+
+#: inc/template-tags.php:292
+msgid "Pingback:"
+msgstr "引用通告："
+
+#: inc/template-tags.php:292 inc/template-tags.php:337
+#: inc/template-tags.php:368
+msgid "(Edit)"
+msgstr "(编辑)"
+
+#: inc/template-tags.php:306 inc/template-tags.php:329
+msgid "Your comment is awaiting moderation."
+msgstr "留言处理中"
+
+#. translators: 1: date, 2: time
+#: inc/template-tags.php:335 inc/template-tags.php:367
+msgid "on %1$s"
+msgstr "在 %1$s"
+
+#: inc/template-tags.php:497
+msgid "Or browse the highlights"
+msgstr "或浏览以下分类"
+
+#: inc/template-tags.php:513
+msgid ""
+"This content is password protected. To view it please enter your password "
+"below:"
+msgstr "该文章已加密，请输入密码以浏览"
+
+#: inc/template-tags.php:514
+msgid "Password:"
+msgstr "密码:"
+
+#: inc/tutorials.php:28
+msgid ""
+"Let's add your first listing! To better familiarize with the process, start "
+"by adding a good"
+msgstr "请开始上传吧！為了让您更快熟悉流程，请开始设定第一个店！"
+
+#: inc/tutorials.php:29
+msgid "title"
+msgstr "标题"
+
+#: inc/tutorials.php:30
+msgid "Coffee Heaven"
+msgstr "咖啡天堂"
+
+#: inc/tutorials.php:43
+msgid "Visitors can filter their search result by "
+msgstr "游客可以过滤搜索结果"
+
+#: inc/tutorials.php:44
+msgid "categories"
+msgstr "categories"
+
+#: inc/tutorials.php:45
+msgid "so make sure you choose them wisely and include all the relevant ones."
+msgstr "所以一定要明智地选择,包括所有相关的。"
+
+#: inc/tutorials.php:46
+msgid ""
+"Let's add two categories: \"Food\" and \"Coffee Shops\" &#8212; later on we "
+"will "
+msgstr "让我们添加两个分类:“美食”和“饭店”&#8212;稍后我们将"
+
+#: inc/tutorials.php:47
+msgid "add icons"
+msgstr "添加图标"
+
+#: inc/tutorials.php:48
+msgid "to them"
+msgstr "给他们"
+
+#: inc/tutorials.php:62
+msgid "Add a short and descriptive"
+msgstr "添加一个简短的描述"
+
+#: inc/tutorials.php:63
+msgid "Tagline"
+msgstr "副标题"
+
+#: inc/tutorials.php:64
+msgid "like \"Speciality Coffee Shop\""
+msgstr "例如“专业咖啡店”"
+
+#: inc/tutorials.php:78
+msgid "Now you can add the"
+msgstr "现在你可以添加"
+
+#: inc/tutorials.php:79
+msgid "address"
+msgstr "地址"
+
+#: inc/tutorials.php:80
+msgid "of the listing. Let's use \"34 Wigmore Street, London\""
+msgstr "店铺，让我们用“即墨鹤山路118号”"
+
+#: inc/tutorials.php:93
+msgid "Add 4 or 5"
+msgstr "添加4或5"
+
+#: inc/tutorials.php:94
+msgid "images"
+msgstr "图像"
+
+#: inc/tutorials.php:95
+msgid ""
+"users love them. *Note that the first one appears on the listing card from "
+"the archive page"
+msgstr "用户喜欢他们。*请注意，第一个出现在列表页的列表卡上"
+
+#: inc/tutorials.php:109
+msgid "Contact information is always useful. If you have a"
+msgstr "联系信息总是有用的。如果你有一个"
+
+#: inc/tutorials.php:110
+msgid "phone number"
+msgstr "电话"
+
+#: inc/tutorials.php:111
+msgid "a"
+msgstr "a"
+
+#: inc/tutorials.php:112
+msgid "website"
+msgstr "网站"
+
+#: inc/tutorials.php:113
+msgid "or a"
+msgstr "或"
+
+#: inc/tutorials.php:114
+msgid "Twitter username"
+msgstr "Twitter 用户名"
+
+#: inc/tutorials.php:115
+msgid "at hand -- fill them below"
+msgstr "在手 - 他们填写以下"
+
+#: inc/tutorials.php:116
+msgid ""
+"Even if they are optional, they are very important so visitors can get find "
+"you"
+msgstr "即使他们是可选的,他们也是非常重要的方便游客可以找到你"
+
+#: inc/tutorials.php:129
+msgid "We're ready to launch!"
+msgstr "我们准备了！"
+
+#: inc/tutorials.php:130
+msgid ""
+"Even if there are other fields that you can play with, there's plenty of "
+"time afterwards"
+msgstr "即使有其他领域，你可以玩，有足够的时间之后"
+
+#: inc/tutorials.php:131
+msgid "Fasten your seatbelt and hit the"
+msgstr "系紧你的安全带,击中了"
+
+#: inc/tutorials.php:132
+msgid "Publish button"
+msgstr "发布按钮"
+
+#: inc/tutorials.php:133
+msgid "Congratulations for your first listing!"
+msgstr "恭喜你完成发布第一个场所！"
+
+#: inc/tutorials.php:166 inc/tutorials.php:202
+msgid "Let me give you a leaner start by loading some "
+msgstr "让我给你一个精简的启动加载一些"
+
+#: inc/tutorials.php:167
+msgid "sample categories and icons"
+msgstr "示例分类和图标"
+
+#: inc/tutorials.php:168 inc/tutorials.php:204
+msgid "that you can use (or delete) later on"
+msgstr "以后,您可以使用(或删除)"
+
+#: inc/tutorials.php:169
+msgid "Load Sample Categories & Icons"
+msgstr "加载示例类别和图标"
+
+#: inc/tutorials.php:170 inc/tutorials.php:206
+msgid ""
+"Please wait a few minutes (between 1 and 3 minutes usually, but depending on "
+"your hosting it can take longer) and"
+msgstr "请稍等几分钟(通常1 - 3分钟,但根据您的服务器可以花费更长的时间)"
+
+#: inc/tutorials.php:203
+msgid "sample tags and icons"
+msgstr "示例标签和图标"
+
+#: inc/tutorials.php:205
+msgid "Load Sample Tags & Icons"
+msgstr "加载示例标签和图标"
+
+#: inc/tutorials.php:288
+msgid "Next &rarr;"
+msgstr "下一个 &rarr;"
+
+#: inc/tutorials.php:296
+msgid "&larr; Prev"
+msgstr "&larr;上一页"
+
+#: inc/tutorials.php:300
+msgid "Finish!"
+msgstr "完成！"
+
+#: inc/tutorials.php:304
+msgid "Step"
+msgstr "步骤"
+
+#: inc/tutorials.php:314 inc/tutorials.php:318
+msgid "PixCare&reg; Assistant"
+msgstr "PixCare&reg;助理"
+
+#: inc/widgets.php:9
+msgid "Front Page Sections"
+msgstr "主页区块"
+
+#: inc/widgets.php:20
+msgid "The wider area where the main listing content should go."
+msgstr "更广泛的领域，主要的上市内容应该去。"
+
+#: inc/widgets.php:29
+msgid "Sidebar Top"
+msgstr "侧边栏顶部"
+
+#: inc/widgets.php:30
+msgid ""
+"Placed to the top of the right sidebar, this area put each widget in a "
+"visually different boxed container."
+msgstr "放在右侧边栏的顶部，把这一领域的每个部件在不同的视觉包装容器。"
+
+#: inc/widgets.php:39
+msgid "Sidebar Bottom"
+msgstr "侧边栏的底部"
+
+#: inc/widgets.php:40
+msgid ""
+"Placed below the Sidebar Top, this area brings together all the widgets "
+"under the same container."
+msgstr "放置侧边栏顶部以下，该地区汇集了所有的部件相同的容器下。"
+
+#: inc/widgets.php:49
+msgid "Footer Area"
+msgstr "页脚区"
+
+#: inc/widgets.php:97 woocommerce/myaccount/view-subscription.php:57
+#: wp-job-manager-bookmarks/my-bookmarks.php:7
+msgid "Actions"
+msgstr "操作"
+
+#: inc/widgets.php:98
+msgid "The action buttons like Write a Review, Share or Add to Favorites."
+msgstr "像写一个评论，分享或添加到最爱的操作按钮。"
+
+#: inc/widgets.php:142
+msgid "Write a review"
+msgstr "写评论"
+
+#: inc/widgets.php:143
+msgid "Review"
+msgstr "评论"
+
+#: inc/widgets.php:160 inc/widgets.php:161
+msgid "Share"
+msgstr "分享"
+
+#: inc/widgets.php:189
+msgid "The main listing content."
+msgstr "主要的店铺内容"
+
+#: inc/widgets.php:244 woocommerce/single-product-reviews.php:27
+msgid "Reviews"
+msgstr "评论"
+
+#: inc/widgets.php:245
+msgid "A list of the recent reviews and the submission form."
+msgstr "最近的评论和提交表单的列表。"
+
+#: inc/widgets.php:274
+msgid "Location Map"
+msgstr "位置地图"
+
+#: inc/widgets.php:275
+msgid ""
+"A Map View of the listing location along with a Directions link to Google "
+"Map."
+msgstr "地图视图的清单链接到谷歌地图位置和方向。"
+
+#: inc/widgets.php:325
+msgid "Get directions"
+msgstr "取得路线"
+
+#: inc/widgets.php:345
+msgid "The listing categories along with the related icon."
+msgstr "店铺的分类以及相关的图标。"
+
+#: inc/widgets.php:400
+msgid "The Hours field content."
+msgstr "时间字段的内容。"
+
+#: inc/widgets.php:429
+msgid "The attached images in a gallery grid format."
+msgstr "在画廊的网格格式的附加图像。"
+
+#: inc/widgets.php:442
+msgid "Photo gallery"
+msgstr "图片库"
+
+#: inc/widgets.php:443
+msgid "All photos"
+msgstr "所有照片"
+
+#: inc/widgets.php:483
+msgid "Claim Listing"
+msgstr "申请項目"
+
+#: inc/widgets.php:484
+msgid "Display a claim listing button."
+msgstr "显示索赔清单按钮。"
+
+#: inc/widgets.php:577
+msgid "Claim Button Text:"
+msgstr "声明按钮文字："
+
+#: inc/widgets.php:582
+msgid "Description:"
+msgstr "描述："
+
+#: inc/widgets.php:595
+msgid "Is this your business?"
+msgstr "这是您的公司吗？"
+
+#: inc/widgets.php:596
+msgid "Claim it now."
+msgstr "现在要求它。"
+
+#: inc/widgets.php:597
+msgid "Make sure your information is up to date."
+msgstr "确保您的信息是最新的。"
+
+#: inc/widgets.php:622 inc/widgets.php:917
+msgid "Listing Cards"
+msgstr "店铺卡片"
+
+#: inc/widgets.php:623
+msgid ""
+"Displays a list of your listings based on different criteria (eg. latest of "
+"featured listings from a specific category)"
+msgstr "根据不同的标准显示地图（如最新的一个特定类别的精选列表）"
+
+#: inc/widgets.php:721 job_manager/content-job_listing.php:56
+msgid "Featured"
+msgstr "特色"
+
+#: inc/widgets.php:846 inc/widgets.php:1169 inc/widgets.php:1376
+#: inc/widgets.php:1896
+msgid "Number of items to show:"
+msgstr "显示条目数量："
+
+#: inc/widgets.php:851
+msgid "Show:"
+msgstr "顯示:"
+
+#: inc/widgets.php:853
+msgid "All Listings"
+msgstr "所有场所"
+
+#: inc/widgets.php:854
+msgid "Featured Listings"
+msgstr "推荐信息"
+
+#: inc/widgets.php:859 inc/widgets.php:1174 inc/widgets.php:1901
+msgid "Order by:"
+msgstr "排序方式："
+
+#: inc/widgets.php:861
+msgid "Date"
+msgstr "日期"
+
+#: inc/widgets.php:862 inc/widgets.php:1178 inc/widgets.php:1905
+msgid "Random"
+msgstr "随机"
+
+#: inc/widgets.php:867
+msgid "Items IDs(optional):"
+msgstr "项目ID（可选）："
+
+#: inc/widgets.php:872 inc/widgets.php:1183
+msgid "Categories Slug(optional):"
+msgstr "类别区域（可选）："
+
+#: inc/widgets.php:918
+msgid "Explore these lovely listings"
+msgstr "探索这些喜欢的物品"
+
+#: inc/widgets.php:939
+msgid "Listing Categories"
+msgstr "场所分类"
+
+#: inc/widgets.php:940
+msgid ""
+"Display a list of listing categories based on different criteria (eg. most "
+"popular, random) or specify which ones you want to show."
+msgstr "根据不同的标准显示店铺类别（如最流行的、随机的）或指定要显示的。"
+
+#: inc/widgets.php:1176 inc/widgets.php:1903
+msgid "Default"
+msgstr "默认"
+
+#: inc/widgets.php:1177 inc/widgets.php:1904
+msgid "Number of Listings"
+msgstr "物品数量"
+
+#: inc/widgets.php:1246
+msgid "What are you interested in?"
+msgstr "你对什么感兴趣？"
+
+#: inc/widgets.php:1247
+msgid "Discover something nice"
+msgstr "发现美好的东西"
+
+#: inc/widgets.php:1266
+msgid "Recent Posts"
+msgstr "最近文章"
+
+#: inc/widgets.php:1267
+msgid "A list of the latest posts from blog."
+msgstr "博客的最新文章列表。"
+
+#: inc/widgets.php:1327
+msgid "View All"
+msgstr "查看所有"
+
+#: inc/widgets.php:1407
+msgid "Latest Posts"
+msgstr "最新文章"
+
+#: inc/widgets.php:1408
+msgid "Fresh articles from the blog"
+msgstr "博客新文章"
+
+#: inc/widgets.php:1421
+msgid "Spotlights"
+msgstr "推荐"
+
+#: inc/widgets.php:1423
+msgid ""
+"Emphasize some features of your website or use it as a step-by-step "
+"explaining process."
+msgstr "强调你的网站的某些功能或使用它作为一个一步一步的解释过程。"
+
+#: inc/widgets.php:1528 inc/widgets.php:1571 inc/widgets.php:1579
+#: inc/widgets.php:1606
+msgid "Select an Image"
+msgstr "选择图像"
+
+#: inc/widgets.php:1529 inc/widgets.php:1572 inc/widgets.php:1607
+msgid "Update Image"
+msgstr "更新图像"
+
+#: inc/widgets.php:1549
+msgid "Main Title:"
+msgstr "主标题"
+
+#: inc/widgets.php:1554
+msgid "Main Subtitle:"
+msgstr "主字幕："
+
+#: inc/widgets.php:1588 inc/widgets.php:1620
+msgid "Content:"
+msgstr "内容："
+
+#: inc/widgets.php:1599
+msgid "Add Spotlight"
+msgstr "加入焦点"
+
+#: inc/widgets.php:1611
+msgid "Choose an Image"
+msgstr "选择图片"
+
+#: inc/widgets.php:1653
+msgid "How It Works"
+msgstr "它如何运行"
+
+#: inc/widgets.php:1676
+msgid ""
+"Display a list of listing regions based on different criteria (eg. most "
+"popular, random) or specify which ones you want to show."
+msgstr "根据不同的标准显示列表地图（如最受欢迎的、随机的）或指定要显示的。"
+
+#: inc/widgets.php:1910
+msgid "Regions Slug(optional):"
+msgstr "地区区域(可选):"
+
+#: inc/widgets.php:1948
+msgid "Where are you going next?"
+msgstr "接下来你要去哪里?"
+
+#: inc/widgets.php:1949
+msgid ""
+"Find the best places to spend your time, near you or in any location around "
+"the world."
+msgstr "在你附近或在任何位置，花你的时间,找到最好的地方。"
+
+#: job_manager/account-signin.php:4
+msgid "Your account"
+msgstr "您的账户"
+
+#: job_manager/account-signin.php:8
+msgid "You are currently signed in as <strong>%s</strong>."
+msgstr "您当前的登录名是 <strong>%s</strong>。"
+
+#: job_manager/account-signin.php:11
+msgid "Sign out"
+msgstr "退出"
+
+#: job_manager/account-signin.php:25
+msgid "Have an account?"
+msgstr "已经有一个账户？"
+
+#: job_manager/account-signin.php:27
+msgid "Sign in"
+msgstr "登录"
+
+#: job_manager/account-signin.php:31
+msgid ""
+"If you don&rsquo;t have an account you can %screate one below by entering "
+"your email address/username. Your account details will be confirmed via "
+"email."
+msgstr ""
+"如果您没有账户，以下填写的邮箱地址和用户将会自动注册。账户细节会寄送到您的邮"
+"箱。"
+
+#: job_manager/account-signin.php:31
+msgid "optionally"
+msgstr "可选的"
+
+#: job_manager/account-signin.php:35
+msgid "You must sign in to create a new listing."
+msgstr "您得先登入才能创建地图。"
+
+#: job_manager/account-signin.php:44
+#: plugins/login-with-ajax/modal/widget_out.php:69
+msgid "Username"
+msgstr "用户名"
+
+#: job_manager/account-signin.php:44 job_manager/account-signin.php:51
+#: job_manager/job-submit.php:43
+msgid "(optional)"
+msgstr "(可选)"
+
+#: job_manager/account-signin.php:51
+msgid "Your email"
+msgstr "你的邮箱"
+
+#: job_manager/account-signin.php:53
+msgid "you@yourdomain.com"
+msgstr "you@yourdomain.com"
+
+#: job_manager/content-no-jobs-found.php:12
+msgid "No Results"
+msgstr "没有您搜索的结果"
+
+#: job_manager/content-no-jobs-found.php:13
+msgid "There are no listings matching your search."
+msgstr "没有信息符合您的搜索条件。"
+
+#: job_manager/content-no-jobs-found.php:17
+msgid "Try changing your filters or "
+msgstr "修改您的筛选条件"
+
+#: job_manager/content-no-jobs-found.php:19
+msgid "create a listing"
+msgstr "创建新的分类"
+
+#: job_manager/content-no-jobs-found.php:24
+msgid "Clear Filters "
+msgstr "清除筛选条件"
+
+#: job_manager/content-single-job_listing-company.php:34
+msgid "Twitter"
+msgstr "Twitter"
+
+#: job_manager/content-single-job_listing-company.php:51
+msgid "Website"
+msgstr "网址"
+
+#: job_manager/content-single-job_listing-meta.php:23
+msgid "Posted %s ago"
+msgstr "发布于%s前"
+
+#: job_manager/content-single-job_listing-meta.php:26
+msgid "This position has been filled"
+msgstr "这个职位已经满员"
+
+#: job_manager/content-single-job_listing-meta.php:28
+msgid "Applications have closed"
+msgstr "申请已经关闭"
+
+#: job_manager/content-single-job_listing-preview.php:62
+#: job_manager/content-single-job_listing.php:40
+msgid "This listing has expired."
+msgstr "这个信息已经过期。"
+
+#: job_manager/form-fields/file-field.php:32
+msgid "Maximum file size: %s."
+msgstr "最大文件尺寸： %s."
+
+#: job_manager/form-fields/uploaded-file-html.php:6
+#: job_manager/form-fields/uploaded-file-html.php:8
+msgid "remove"
+msgstr "移除"
+
+#: job_manager/job-dashboard.php:2
+msgid "Your listings are shown in the table below."
+msgstr "下面列出您发布的地图信息。"
+
+#: job_manager/job-dashboard.php:15
+msgid "You do not have any active listings."
+msgstr "您没有活动中的信息。"
+
+#: job_manager/job-dashboard.php:49
+msgid "Mark not filled"
+msgstr "标记不曾填写的"
+
+#: job_manager/job-dashboard.php:51
+msgid "Mark filled"
+msgstr "标记已经填写的"
+
+#: job_manager/job-dashboard.php:56
+msgid "Relist"
+msgstr "重新发布"
+
+#: job_manager/job-dashboard.php:67
+#: wp-job-manager-bookmarks/my-bookmarks.php:28
+msgid "Delete"
+msgstr "删除"
+
+#: job_manager/job-filters-hero.php:22 job_manager/job-filters-hero.php:171
+msgid "Search"
+msgstr "搜索"
+
+#: job_manager/job-filters-hero.php:129 searchform.php:5
+#: template-parts/header-fields.php:88
+msgid "What are you looking for?"
+msgstr "你在找什么？"
+
+#: job_manager/job-filters-hero.php:160 job_manager/job-filters.php:124
+msgid "Category"
+msgstr "类别"
+
+#: job_manager/job-filters-hero.php:161 job_manager/job-filters.php:128
+msgid "Any category"
+msgstr "任何目录"
+
+#: job_manager/job-filters-hero.php:181 job_manager/job-filters.php:170
+msgid ""
+"Your browser does not support JavaScript, or it is disabled. JavaScript must "
+"be enabled in order to view listings."
+msgstr ""
+"您的浏览器不支持JavaScript或者禁用了JavaScript。要浏览招聘信息JavaScript需为"
+"可用。"
+
+#: job_manager/job-filters.php:56 job_manager/job-filters.php:156
+msgid "Filter"
+msgstr "筛选"
+
+#: job_manager/job-filters.php:58 job_manager/job-filters.php:158
+msgid "Map View"
+msgstr "显示地图"
+
+#: job_manager/job-filters.php:61 job_manager/job-filters.php:161
+msgid "Cards View"
+msgstr "缩略图"
+
+#: job_manager/job-filters.php:66
+msgid "More filters"
+msgstr "更多筛选"
+
+#: job_manager/job-filters.php:67
+msgid "Less filters"
+msgstr "小于筛选"
+
+#: job_manager/job-filters.php:143
+msgid "Filter by tags"
+msgstr "筛选标签"
+
+#: job_manager/job-submitted.php:7
+msgid ""
+"%s listed successfully. To view your listing <a href=\"%s\">click here</a>."
+msgstr "%s 发布成功。浏览信息 <a href=\"%s\">点这里 </a>。"
+
+#: job_manager/job-submitted.php:12
+msgid "%s submitted successfully. Your listing will be visible once approved."
+msgstr "%s提交成功。您的信息将于审核后发布。"
+
+#: plugins/login-with-ajax/modal/widget_out.php:16
+msgid "Username or Email Address"
+msgstr "用户名or邮箱地址~"
+
+#: plugins/login-with-ajax/modal/widget_out.php:20
+#: woocommerce/custom/form-login.php:30
+msgid "Password"
+msgstr "密码"
+
+#: plugins/login-with-ajax/modal/widget_out.php:26
+#: woocommerce/custom/form-login.php:44
+msgid "Remember me"
+msgstr "记住"
+
+#: plugins/login-with-ajax/modal/widget_out.php:30
+msgid "Password Lost and Found"
+msgstr "找回密码"
+
+#: plugins/login-with-ajax/modal/widget_out.php:30
+#: woocommerce/custom/form-login.php:48
+msgid "Lost your password?"
+msgstr "忘记密码？"
+
+#: plugins/login-with-ajax/modal/widget_out.php:44
+msgid "Don't have an account?"
+msgstr "没有帐户？"
+
+#: plugins/login-with-ajax/modal/widget_out.php:44
+msgid "Sign up"
+msgstr "注册"
+
+#: plugins/login-with-ajax/modal/widget_out.php:52
+msgid "Username or Email"
+msgstr "用户名或电子邮件"
+
+#: plugins/login-with-ajax/modal/widget_out.php:57
+msgid "Get New Password"
+msgstr "获取新密码"
+
+#: plugins/login-with-ajax/modal/widget_out.php:61
+#: woocommerce-bookings/myaccount/my-bookings.php:47
+msgid "Cancel"
+msgstr "取消"
+
+#: plugins/login-with-ajax/modal/widget_out.php:74
+msgid "Email address"
+msgstr "Email"
+
+#: plugins/login-with-ajax/modal/widget_out.php:83
+msgid "A password will be e-mailed to you."
+msgstr "您的密码将以发送至您的邮箱"
+
+#: plugins/login-with-ajax/modal/widget_out.php:87
+msgid "Register"
+msgstr "注册"
+
+#: plugins/login-with-ajax/modal/widget_out.php:92
+msgid "Already have an account?"
+msgstr "您已有账户？"
+
+#: plugins/login-with-ajax/modal/widget_out.php:92
+msgid "Log in"
+msgstr "登入"
+
+#: search.php:15
+msgid "Search results for: %s"
+msgstr "搜索结果：%s"
+
+#: single-job_listing.php:65 template-parts/content-page.php:39
+#: template-parts/content-single.php:42
+msgid "Pages:"
+msgstr "页："
+
+#: tag.php:15
+msgid "Tag: "
+msgstr "标签："
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr "没有找到"
+
+#: template-parts/content-none.php:16
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "准备好发布您的第一篇文章？ <a href=\"%1$s\">立即开始</a>。"
+
+#: template-parts/content-none.php:20
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "对不起，沒有任何匹配你搜索条件的结果。请尝试使用不同的关键词。"
+
+#: template-parts/content-none.php:25
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "看來我们不能找到你想要的东西。试试搜索吧。"
+
+#: wc-paid-listings/package-selection.php:26
+msgid "Your packages"
+msgstr "您的套餐："
+
+#: wc-paid-listings/package-selection.php:36
+msgid "%s listing posted out of %d"
+msgid_plural "%s listings posted out of %d"
+msgstr[0] ""
+
+#: wc-paid-listings/package-selection.php:38
+msgid "%s listing posted"
+msgid_plural "%s listings posted"
+msgstr[0] ""
+
+#: wc-paid-listings/package-selection.php:42
+msgid "listed for %s day"
+msgid_plural "listed for %s days"
+msgstr[0] ""
+
+#: wc-paid-listings/package-selection.php:49
+#: wc-paid-listings/package-selection.php:97
+msgid "Get Started"
+msgstr "开始学习"
+
+#: wc-paid-listings/package-selection.php:57
+msgid "Purchase packages"
+msgstr "购买套餐"
+
+#: wc-paid-listings/package-selection.php:81
+msgid "Free"
+msgstr "解锁第一课"
+
+#: wc-paid-listings/package-selection.php:105
+msgid "No packages found"
+msgstr "没有找到包装"
+
+#: woocommerce/archive-product.php:51
+msgid "All Products"
+msgstr "所有商品"
+
+#: woocommerce/cart/cart-totals.php:19
+msgid "Cart Totals"
+msgstr "购物车合计"
+
+#: woocommerce/cart/cart-totals.php:24 woocommerce/checkout/review-order.php:79
+msgid "Subtotal"
+msgstr "小计"
+
+#: woocommerce/cart/cart-totals.php:46
+msgid "Shipping"
+msgstr "运输"
+
+#: woocommerce/cart/cart-totals.php:78 woocommerce/cart/cart.php:38
+#: woocommerce/checkout/review-order.php:126
+#: woocommerce/myaccount/view-subscription.php:95
+msgid "Total"
+msgstr "总"
+
+#: woocommerce/cart/cart-totals.php:90
+msgid " (taxes estimated for %s)"
+msgstr "（估计税款为 %s）"
+
+#: woocommerce/cart/cart-totals.php:93
+msgid ""
+"Note: Shipping and taxes are estimated%s and will be updated during checkout "
+"based on your billing and shipping information."
+msgstr "注意:运费和税收%s 將在您结账时更新。"
+
+#: woocommerce/cart/cart.php:35 woocommerce/myaccount/view-subscription.php:94
+msgid "Product"
+msgstr "商品"
+
+#: woocommerce/cart/cart.php:36
+msgid "Price"
+msgstr "单价"
+
+#: woocommerce/cart/cart.php:37
+msgid "Quantity"
+msgstr "数量"
+
+#: woocommerce/cart/cart.php:69
+msgid "Remove this item"
+msgstr "移除该产品"
+
+#: woocommerce/cart/cart.php:104
+msgid "Available on backorder"
+msgstr "补单中"
+
+#: woocommerce/cart/cart.php:155
+msgid "Coupon"
+msgstr "优惠"
+
+#: woocommerce/cart/cart.php:155 woocommerce/checkout/form-coupon.php:28
+msgid "Coupon code"
+msgstr "优惠代码"
+
+#: woocommerce/cart/cart.php:156
+msgid "Apply Coupon"
+msgstr "使用优惠券"
+
+#: woocommerce/cart/cart.php:163
+msgid "Update cart"
+msgstr "更新購物車"
+
+#: woocommerce/cart/cross-sells.php:27
+msgid "You may be interested in&hellip;"
+msgstr "您可能感兴趣&hellip;"
+
+#: woocommerce/checkout/form-checkout.php:29
+msgid "You must be logged in to checkout."
+msgstr "必须登录才能结账"
+
+#: woocommerce/checkout/form-coupon.php:20
+msgid "Have a coupon?"
+msgstr "有优惠券"
+
+#: woocommerce/checkout/form-coupon.php:20
+msgid "Click here to enter your code"
+msgstr "点击这里输入优惠码"
+
+#: woocommerce/checkout/form-coupon.php:32
+msgid "Apply coupon"
+msgstr "使用优惠券"
+
+#: woocommerce/checkout/form-login.php:21
+msgid "Returning customer?"
+msgstr "已注册用户？"
+
+#: woocommerce/checkout/form-login.php:29
+#: woocommerce/checkout/form-login.php:34
+msgid "Click here to login"
+msgstr "点击此处登录"
+
+#: woocommerce/checkout/form-login.php:38
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer please proceed to the Billing &amp; "
+"Shipping section."
+msgstr ""
+"如果您之前与我们购物，请在下面的框中输入您的详细信息。 如果您是新客户，请进入"
+"帐单＆amp; 装运部分。"
+
+#: woocommerce/checkout/payment.php:34
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+"很抱歉, 似乎沒有您的所在縣市可用的付款方式，如果需要協助或者其他替代方案請聯"
+"絡我們客服人員."
+
+#: woocommerce/checkout/payment.php:34
+msgid "Please fill in your details above to see available payment methods."
+msgstr "请填写您的详细信息，以查看可用的送货方式。"
+
+#: woocommerce/checkout/place-order-button.php:9
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the <em>Update Totals</em> button before placing your "
+"order. You may be charged more than the amount stated above if you fail to "
+"do so."
+msgstr ""
+"由于您的浏览器不支持JavaScript，或者它被禁用，在你付款之前请确保你单击的”更新"
+"总计”按钮，如果你不这样做，你可能会支付超过上述金额。"
+
+#: woocommerce/checkout/place-order-button.php:9
+msgid "Update totals"
+msgstr "更新汇总"
+
+#: woocommerce/checkout/place-order-button.php:19
+msgid ""
+"I&rsquo;ve read and accept the <a href=\"%s\" target=\"_blank\">terms &amp; "
+"conditions</a>"
+msgstr "我已阅读并接受<a href=\"%s\" target=\"_blank\">服务条款</a>"
+
+#: woocommerce/custom/form-login.php:26
+msgid "Username or email"
+msgstr "用户名或Email"
+
+#: woocommerce/custom/form-login.php:41
+msgid "Login"
+msgstr "登陆"
+
+#: woocommerce/loop/loop-end.php:11
+msgid "Older products"
+msgstr "老产品"
+
+#: woocommerce/loop/loop-end.php:12
+msgid "Newer products"
+msgstr "更新的产品"
+
+#: woocommerce/loop/loop-end.php:13
+msgid "Products navigation"
+msgstr "商品导览"
+
+#: woocommerce/loop/result-count.php:32
+msgid "Showing the single result"
+msgstr "显示单个结果"
+
+#: woocommerce/loop/result-count.php:34
+msgid "Showing all %d results"
+msgstr "显示全部 %d 结果"
+
+#: woocommerce/loop/result-count.php:36
+msgctxt "%1$d = first, %2$d = last, %3$d = total"
+msgid "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr "显示 %1$d&ndash;%2$d of %3$d 结果"
+
+#: woocommerce/myaccount/dashboard.php:34
+msgid "Hello <strong>%1$s</strong> (not %1$s? <a href=\"%2$s\">Sign out</a>)."
+msgstr "<strong>%1$s</strong>，你好 (未 %1$s? <a href=“%2$s”>注销</a>)."
+
+#: woocommerce/myaccount/dashboard.php:39
+msgid ""
+"From your account dashboard you can view your recent orders, manage your "
+"shipping and billing addresses and <a href=\"%s\">edit your password and "
+"account details</a>."
+msgstr ""
+"从您的控制面板您可以查看您的最新订单，管理您的配送地址和账单地址以及<a "
+"href=“%s”>编辑密码和账户详情</a>."
+
+#: woocommerce/myaccount/dashboard.php:49
+msgid ""
+"From your account dashboard you can view your %1$srecent orders%2$s, manage "
+"your %3$sshipping and billing addresses%2$s and %4$sedit your password and "
+"account details%2$s."
+msgstr ""
+"您可以在帐户信息中心查看%1$s最近订单％2 $ s，管理您的%3$s快递和帐单地址%2$s"
+"和%4$s编辑您的密码和帐户详细信息%2$s。"
+
+#: woocommerce/myaccount/view-subscription.php:20
+msgid "Invalid Subscription."
+msgstr "无效申购。"
+
+#: woocommerce/myaccount/view-subscription.php:20
+msgid "My Account"
+msgstr "我的帐户"
+
+#: woocommerce/myaccount/view-subscription.php:37
+#: woocommerce-bookings/myaccount/my-bookings.php:18
+#: woocommerce-bookings/myaccount/my-bookings.php:42
+msgid "Start Date"
+msgstr "开始日期"
+
+#: woocommerce/myaccount/view-subscription.php:41
+msgctxt "admin subscription table header"
+msgid "Last Payment Date"
+msgstr "最后付款日期"
+
+#: woocommerce/myaccount/view-subscription.php:42
+msgctxt "admin subscription table header"
+msgid "Next Payment Date"
+msgstr "下次付款日期"
+
+#: woocommerce/myaccount/view-subscription.php:43
+msgctxt "admin subscription table header"
+msgid "End Date"
+msgstr "结束日期"
+
+#: woocommerce/myaccount/view-subscription.php:44
+msgctxt "admin subscription table header"
+msgid "Trial End Date"
+msgstr "试用结束日期"
+
+#: woocommerce/myaccount/view-subscription.php:68
+msgid "Subscription Updates"
+msgstr "订阅更新"
+
+#: woocommerce/myaccount/view-subscription.php:74
+msgctxt "date on subscription updates list. Will be localized"
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr "l jS \\o\\f F Y, h:ia"
+
+#: woocommerce/myaccount/view-subscription.php:87
+msgid "Subscription Totals"
+msgstr "订阅"
+
+#: woocommerce/myaccount/view-subscription.php:109
+msgid "Are you sure you want remove this item from your subscription?"
+msgstr "你确定你想从你的订阅中删除这个项目吗？"
+
+#. translators: placeholder is "number:" or just ":"
+#: woocommerce/myaccount/view-subscription.php:135
+msgid "Download file%s"
+msgstr "下载文件%s"
+
+#: woocommerce/myaccount/view-subscription.php:198
+#: woocommerce/myaccount/view-subscription.php:202
+msgctxt "includes tax"
+msgid "(Includes %s)"
+msgstr "（包括%s）"
+
+#: woocommerce/myaccount/view-subscription.php:220
+msgid "Refunded:"
+msgstr "退还："
+
+#: woocommerce/myaccount/view-subscription.php:229
+msgctxt "customer note"
+msgid "Note:"
+msgstr "注："
+
+#: woocommerce/myaccount/view-subscription.php:239
+msgid "Customer details"
+msgstr "客户详细信息"
+
+#: woocommerce/myaccount/view-subscription.php:244
+#: woocommerce/order/order-details-customer.php:35
+msgid "Email:"
+msgstr "电子邮箱："
+
+#: woocommerce/myaccount/view-subscription.php:244
+#: woocommerce/single-product-reviews.php:69
+msgid "Email"
+msgstr "电子邮件"
+
+#: woocommerce/myaccount/view-subscription.php:248
+#: woocommerce/order/order-details-customer.php:42
+msgid "Telephone:"
+msgstr "电话："
+
+#: woocommerce/myaccount/view-subscription.php:248
+msgid "Telephone"
+msgstr "电话"
+
+#: woocommerce/myaccount/view-subscription.php:266
+msgid "Billing Address"
+msgstr "帐单地址"
+
+#: woocommerce/myaccount/view-subscription.php:271
+msgctxt "no formatted billing address"
+msgid "N/A"
+msgstr "N/A"
+
+#: woocommerce/myaccount/view-subscription.php:287
+msgid "Shipping Address"
+msgstr "送货地址"
+
+#: woocommerce/myaccount/view-subscription.php:292
+msgctxt "no formatted shipping address"
+msgid "N/A"
+msgstr "N/A"
+
+#: woocommerce/order/order-details-customer.php:23
+msgid "Customer Details"
+msgstr "顾客信息"
+
+#: woocommerce/order/order-details-customer.php:28
+msgid "Note:"
+msgstr "注："
+
+#: woocommerce/order/order-details-customer.php:58
+msgid "Billing address"
+msgstr "送货地址"
+
+#: woocommerce/order/order-details-customer.php:61
+#: woocommerce/order/order-details-customer.php:72
+msgid "N/A"
+msgstr "N/A"
+
+#: woocommerce/order/order-details-customer.php:69
+msgid "Shipping address"
+msgstr "配送地址"
+
+#: woocommerce/single-product/related.php:27
+msgid "Related Products"
+msgstr "相关产品"
+
+#: woocommerce/single-product/up-sells.php:51
+msgid "You may also like&hellip;"
+msgstr "您可能喜欢&hellip;"
+
+#: woocommerce/single-product-reviews.php:24
+msgid "%s review for %s"
+msgid_plural "%s reviews for %s"
+msgstr[0] ""
+
+#: woocommerce/single-product-reviews.php:49
+msgid "There are no reviews yet."
+msgstr "没有评论。"
+
+#: woocommerce/single-product-reviews.php:62
+msgid "Add a review"
+msgstr "添加评论"
+
+#: woocommerce/single-product-reviews.php:62
+msgid "Be the first to review"
+msgstr "成为第一个评论"
+
+#: woocommerce/single-product-reviews.php:63
+msgid "Leave a Reply to %s"
+msgstr "给%s回复"
+
+#: woocommerce/single-product-reviews.php:67
+msgid "Name"
+msgstr "姓名"
+
+#: woocommerce/single-product-reviews.php:78
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr "必须 <a href=\"%s\">登录</a> 才可以发表回复"
+
+#: woocommerce/single-product-reviews.php:82
+msgid "Your rating"
+msgstr "你的評分"
+
+#: woocommerce/single-product-reviews.php:83
+msgid "Rate&hellip;"
+msgstr "评分＆hellip;"
+
+#: woocommerce/single-product-reviews.php:84
+msgid "Perfect"
+msgstr "完美"
+
+#: woocommerce/single-product-reviews.php:85
+msgid "Good"
+msgstr "好"
+
+#: woocommerce/single-product-reviews.php:86
+msgid "Average"
+msgstr "平均值"
+
+#: woocommerce/single-product-reviews.php:87
+msgid "Not that bad"
+msgstr "还不错"
+
+#: woocommerce/single-product-reviews.php:88
+msgid "Very poor"
+msgstr "很差"
+
+#: woocommerce/single-product-reviews.php:92
+msgid "Your review"
+msgstr "您的点评"
+
+#: woocommerce/single-product-reviews.php:101
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr "已购买此产品的客户才能评论."
+
+#: woocommerce-bookings/myaccount/my-bookings.php:10
+msgid "My bookings"
+msgstr "我的预定"
+
+#: woocommerce-bookings/myaccount/my-bookings.php:15
+#: woocommerce-bookings/myaccount/my-bookings.php:27
+msgid "ID"
+msgstr "ID"
+
+#: woocommerce-bookings/myaccount/my-bookings.php:16
+#: woocommerce-bookings/myaccount/my-bookings.php:28
+msgid "Booked"
+msgstr "已预约"
+
+#: woocommerce-bookings/myaccount/my-bookings.php:17
+#: woocommerce-bookings/myaccount/my-bookings.php:35
+msgid "Order"
+msgstr "订单"
+
+#: woocommerce-bookings/myaccount/my-bookings.php:19
+#: woocommerce-bookings/myaccount/my-bookings.php:43
+msgid "End Date"
+msgstr "结束日期"
+
+#: wp-job-manager-bookmarks/my-bookmarks.php:5
+#: wp-job-manager-bookmarks/my-bookmarks.php:19
+msgid "Bookmark"
+msgstr "收藏"
+
+#: wp-job-manager-bookmarks/my-bookmarks.php:6
+#: wp-job-manager-bookmarks/my-bookmarks.php:22
+msgid "Notes"
+msgstr "书签记录"
+
+#: wp-job-manager-bookmarks/my-bookmarks.php:44
+msgid "You currently have no bookmarks"
+msgstr "收藏夹似乎什么都没有，试试添加新的收藏？"
+
+#. Theme URI of the plugin/theme
+msgid "https://pixelgrade.com/demos/listable/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A directory WordPress theme that will help you create and manage a local or "
+"global listings site."
+msgstr "目录WordPress主题，将帮助您创建和管理本地或全局列表的网站。"
+
+#. Author of the plugin/theme
+msgid "Pixelgrade"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://pixelgrade.com/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full Width"
+msgstr "全宽布局"
+
+#. Template Name of the plugin/theme
+msgid "Full Width (No title)"
+msgstr "全宽无标题"
