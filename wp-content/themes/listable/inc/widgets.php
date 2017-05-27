@@ -284,13 +284,15 @@ class Listing_Sidebar_Map_Widget extends WP_Widget {
 		if ( empty( $address ) ) {
 			return;
 		}
-
+		$geolocation_street = get_post_meta(get_the_ID(), 'geolocation_street', true);
+		$geolocation_city  = get_post_meta(get_the_ID(), 'geolocation_city', true);
 		$geolocation_lat  = get_post_meta( get_the_ID(), 'geolocation_lat', true );
 		$geolocation_long = get_post_meta( get_the_ID(), 'geolocation_long', true );
 
 		$get_directions_link = '';
 		if ( ! empty( $geolocation_lat ) && ! empty( $geolocation_long ) && is_numeric( $geolocation_lat ) && is_numeric( $geolocation_long ) ) {
 			$get_directions_link = '//www.google.cn/maps?daddr=' . $geolocation_lat . ',' . $geolocation_long;
+			$get_directions_link = 'http://map.baidu.com/?q=' . $geolocation_city . ' ' . $geolocation_street;
 		}
 		
 		if ( empty( $get_directions_link ) ) {

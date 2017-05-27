@@ -6740,37 +6740,31 @@ if (!Date.now)
                     // });
                     // $('#map').addClass('map--google');
                     // 百度地图API功能
-                    var map = new BMap.Map("map");
-                    var point = new BMap.Point(116.404, 39.915);
-                    map.centerAndZoom(point, 15);
-                    // 编写自定义函数,创建标注
-                    function addMarker(point){
-                        var marker = new BMap.Marker(point);
-                        map.addOverlay(marker);
-                    }
+                    map = new BMap.Map("map");
+                    
+                    
                     // 随机向地图添加25个标注
-                    var bounds = map.getBounds();
-                    var sw = bounds.getSouthWest();
-                    var ne = bounds.getNorthEast();
-                    var lngSpan = Math.abs(sw.lng - ne.lng);
-                    var latSpan = Math.abs(ne.lat - sw.lat);
-                    for (var i = 0; i < 25; i ++) {
-                        var point = new BMap.Point(sw.lng + lngSpan * (Math.random() * 0.7), ne.lat - latSpan * (Math.random() * 0.7));
-                        addMarker(point);
-                    }
+                    // var bounds = map.getBounds();
+                    // var sw = bounds.getSouthWest();
+                    // var ne = bounds.getNorthEast();
+                    // var lngSpan = Math.abs(sw.lng - ne.lng);
+                    // var latSpan = Math.abs(ne.lat - sw.lat);
+                    // for (var i = 0; i < 25; i ++) {
+                    //     var point = new BMap.Point(sw.lng + lngSpan * (Math.random() * 0.7), ne.lat - latSpan * (Math.random() * 0.7));
+                    //     addMarker(point);
+                    // }
 
                     var top_left_control = new BMap.ScaleControl({anchor: BMAP_ANCHOR_TOP_LEFT});// 左上角，添加比例尺
                     var top_left_navigation = new BMap.NavigationControl();  //左上角，添加默认缩放平移控件
-                    var top_right_navigation = new BMap.NavigationControl({anchor: BMAP_ANCHOR_TOP_RIGHT, type: BMAP_NAVIGATION_CONTROL_SMALL}); //右上角，仅包含平移和缩放按钮
-                    /*缩放控件type有四种类型:
-                     BMAP_NAVIGATION_CONTROL_SMALL：仅包含平移和缩放按钮；BMAP_NAVIGATION_CONTROL_PAN:仅包含平移按钮；BMAP_NAVIGATION_CONTROL_ZOOM：仅包含缩放按钮*/
+                    // var top_right_navigation = new BMap.NavigationControl({anchor: BMAP_ANCHOR_TOP_RIGHT, type: BMAP_NAVIGATION_CONTROL_SMALL}); //右上角，仅包含平移和缩放按钮
+                    // /*缩放控件type有四种类型:
+                    //  BMAP_NAVIGATION_CONTROL_SMALL：仅包含平移和缩放按钮；BMAP_NAVIGATION_CONTROL_PAN:仅包含平移按钮；BMAP_NAVIGATION_CONTROL_ZOOM：仅包含缩放按钮*/
 
-                    //添加控件和比例尺
+                    // //添加控件和比例尺
                     map.addControl(top_left_control);
                     map.addControl(top_left_navigation);
-                    map.addControl(top_right_navigation);
+                    // map.addControl(top_right_navigation);
 
-                    console.log('test');
                 }
 
                 //map.addLayer(tileLayer);
@@ -6778,13 +6772,16 @@ if (!Date.now)
                 // if we are on the archive page (#map is not a single listing's map) :D
                 // @todo do do doom
                 if (!$('#map').is('.listing-map')) {
+                    var point = new BMap.Point(116.404, 39.915);
+                    map.centerAndZoom(point, 6);
+
                     $('#main .job_listings').on('updated_results', function(e, result) {
-                        updateCards(result.total_found);
+                        updateCardsBaidu(result.total_found);
                     });
 
                     //This one is for FacetWP
                     $(document).on('facetwp-loaded', function(e, result) {
-                        updateCards();
+                        updateCardsBaidu();
                     });
                 } else {
                     var $item = $('.single_job_listing');
@@ -6795,12 +6792,13 @@ if (!Date.now)
                             typeof MapWidgetZoom !== "undefined"
                         ) ? MapWidgetZoom : 13;
 
-                        addPinToMap($item);
-                        map.addLayer(markers);
-                        map.setActiveArea('active-area');
-                        map.setView([$item.data('latitude'), $item.data('longitude')], zoom);
+                        map.centerAndZoom(new BMap.Point($item.data('longitude'), $item.data('latitude')), zoom);  // 初始化地图,设置中心点坐标和地图级别
+                        addPinToMapBaidu($item);
+                        // map.addLayer(markers);
+                        // map.setActiveArea('active-area');
+                        // map.setView([$item.data('latitude'), $item.data('longitude')], zoom);
                         $(window).on('update:map', function() {
-                            map.setView([$item.data('latitude'), $item.data('longitude')], zoom);
+                            // map.setView([$item.data('latitude'), $item.data('longitude')], zoom);
                         });
                     } else {
                         $('#map').hide();
@@ -6819,11 +6817,16 @@ if (!Date.now)
                 $('.js-find-me').remove();
             }
 
+            // 编写自定义函数,创建标注
+            function addMarker(point,map){
+                var marker = new BMap.Marker(point);
+                map.addOverlay(marker);
+            }
+
             function updateCards($total_found) {
 
                 var $cards = $('#main .card');
                 var cardsWithLocation = 0;
-
                 if (!$cards.length) {
                     $('body').addClass('has-no-listings');
                     defaultMapView();
@@ -6840,7 +6843,6 @@ if (!Date.now)
                 } else {
                     $('<div class="results"><span class="results-no">' + $cards.length + '</span> ' + listable_params.strings['results-no'] + '</div>').prependTo('.showing_jobs, .search-query');
                 }
-
                 if ($('.map').length && typeof map !== "undefined") {
                     map.removeLayer(markers);
                     markers = new L.MarkerClusterGroup({
@@ -6864,7 +6866,57 @@ if (!Date.now)
                         var lat = (bounds._northEast.lat + bounds._southWest.lat) / 2;
                         var lng = (bounds._northEast.lng + bounds._southWest.lng) / 2;
                         bounds = [lat, lng];
+                        Cookies.set('pxg-listable-bounds', JSON.stringify(bounds));
+                        Cookies.set('pxg-listable-mapZoom', mapZoom);
+                    } else {
+                        defaultMapView();
+                    }
+                }
+            }
 
+            function updateCardsBaidu($total_found) {
+
+                var $cards = $('#main .card');
+                var cardsWithLocation = 0;
+                if (!$cards.length) {
+                    $('body').addClass('has-no-listings');
+                    defaultMapView();
+                    return;
+                }
+
+                //first some cleanup to avoid multiple results being shown - it happens
+                $('.showing_jobs .results').remove();
+
+                if (typeof $total_found !== 'undefined') {
+                    //someone must have blessed us with higher knowledge
+                    //let's not let it go to waste
+                    $('<div class="results"><span class="results-no">' + $total_found + '</span> ' + listable_params.strings['results-no'] + '</div>').prependTo('.showing_jobs, .search-query');
+                } else {
+                    $('<div class="results"><span class="results-no">' + $cards.length + '</span> ' + listable_params.strings['results-no'] + '</div>').prependTo('.showing_jobs, .search-query');
+                }
+                if ($('.map').length && typeof map !== "undefined") {
+                    // map.removeLayer(markers);
+                    markers = new L.MarkerClusterGroup({
+                        showCoverageOnHover: false
+                    });
+                    $cards.each(function(i, obj) {
+                        var cardHasLocation = addPinToMapBaidu($(obj), true);
+                        if (cardHasLocation) {
+                            cardsWithLocation += 1;
+                        }
+                    });
+
+                    if (cardsWithLocation != 0) {
+                        // map.fitBounds(markers.getBounds(), {
+                        //     padding: [50, 50]
+                        // });
+                        map.addLayer(markers);
+
+                        var mapZoom = map.getZoom();
+                        var bounds = markers.getBounds();
+                        var lat = (bounds._northEast.lat + bounds._southWest.lat) / 2;
+                        var lng = (bounds._northEast.lng + bounds._southWest.lng) / 2;
+                        bounds = [lat, lng];
                         Cookies.set('pxg-listable-bounds', JSON.stringify(bounds));
                         Cookies.set('pxg-listable-mapZoom', mapZoom);
                     } else {
@@ -6936,6 +6988,79 @@ if (!Date.now)
                 }
 
                 markers.addLayer(m);
+
+                return true;
+            }
+
+            function addPinToMapBaidu($item, archive) {
+                var categories = $item.data('categories'),
+                    iconClass, m;
+                var latitude = $item.data('latitude');
+                var longitude = $item.data('longitude');
+                console.log(latitude);
+                console.log(longitude);
+
+                var point = new BMap.Point(longitude, latitude);
+                addMarker(point,map);
+                if (empty($item.data('latitude')) || empty($item.data('longitude'))) {
+                    return false;
+                }
+
+                if (typeof categories !== "undefined" && !categories.length) {
+                    iconClass = 'pin pin--empty';
+                } else {
+                    iconClass = 'pin';
+                }
+
+                var $icon = $('.selected-icon-svg'),
+                    $tags = $item.find('.card__tag'),
+                    $categories = $item.find('.category-icon'),
+                    $tag, iconHTML = "<div class='" + iconClass + "'>" + $('.empty-icon-svg').html() + "</div>";
+
+                if ($body.is('.single-job_listing')) {
+                    // If we are on a single listing
+                    if ($('.single-listing-map-category-icon').length) {
+                        iconHTML = "<div class='" + iconClass + "'>" + $icon.html() + "<div class='pin__icon'>" + $('.single-listing-map-category-icon').html() + "</div></div>";
+                    }
+                } else if ($tags.length) {
+                    $tag = $tags.first();
+                    iconHTML = "<div class='" + iconClass + "'>" + $icon.html() + $tag.html() + "</div>";
+                } else if ($categories.length) {
+                    iconHTML = "<div class='" + iconClass + "'>" + $icon.html() + "<div class='pin__icon'>" + $categories.html() + "</div></div>";
+                }
+
+                m = L.marker([$item.data('latitude'), $item.data('longitude')], {
+                    icon: new CustomHtmlIcon({
+                        html: iconHTML
+                    })
+                });
+
+                if (typeof archive !== "undefined") {
+
+                    $item.hover(function() {
+                        $(m._icon).find('.pin').addClass('pin--selected');
+                    }, function() {
+                        $(m._icon).find('.pin').removeClass('pin--selected');
+                    });
+
+                    var rating = $item.find('.js-average-rating').text(),
+                        ratingHTML = rating.length ? "<div class='popup__rating'><span>" + rating + "</span></div>" : "",
+                        address = $item.find('.card__address').text();
+
+                    m.bindPopup(
+                        "<a class='popup' href='" + $item.data('permalink') + "'>" +
+                        "<div class='popup__image' style='background-image: url(" + $item.data('img') + ");'></div>" +
+                        "<div class='popup__content'>" +
+                        "<h3 class='popup__title'>" + $item.find('.card__title').html() + "</h3>" +
+                        "<div class='popup__footer'>" +
+                        ratingHTML +
+                        "<div class='popup__address'>" + $item.find('.card__address').html() + "</div>" +
+                        "</div>" +
+                        "</div>" +
+                        "</a>").openPopup();
+                }
+
+                // markers.addLayer(m);
 
                 return true;
             }
