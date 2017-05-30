@@ -155,8 +155,49 @@ class WP_Job_Manager_Writepanels {
 			remove_meta_box( 'job_listing_typediv', 'job_listing', 'side');
 			$job_listing_type = get_taxonomy( 'job_listing_type' );
 			add_meta_box( 'job_listing_type', $job_listing_type->labels->menu_name, array( $this, 'job_listing_metabox' ),'job_listing' ,'side','core');
+
+			add_meta_box('baidu_map', '地图标记', array($this, 'gg_baidu_custom_box'));
 		}
 	}
+
+	public function gg_baidu_custom_box($post)
+    {
+        $html = '<div id="form_area">点击选择地点：</div><div id="allmap" style="height:500px; width:100%;"></div><script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=BrROQptLxvqmnN5UG505lUNo1hMAiFd9"></script>';
+        $html .= <<<EOT
+<script type="text/javascript">
+	// 百度地图API功能
+	var map = new BMap.Map("allmap");            
+	map.centerAndZoom("北京",10);           
+	//单击获取点击的经纬度
+	map.addEventListener("click",function(e){
+	    var tip_info = '经度：'+ e.point.lng;
+	    tip_info += ' ; 维度：' + e.point.lat;
+	    
+	    document.getElementById("form_area").innerHTML = tip_info;
+    });
+	
+	var size = new BMap.Size(10, 20);
+    map.addControl(new BMap.CityListControl({
+    anchor: BMAP_ANCHOR_TOP_RIGHT,
+    offset: size,
+    // 切换城市之间事件
+    // onChangeBefore: function(){
+    //    alert('before');
+    // },
+    // 切换城市之后事件
+    // onChangeAfter:function(){
+    //   alert('after');
+    // }
+}));
+
+    var top_left_control = new BMap.ScaleControl({anchor: BMAP_ANCHOR_TOP_LEFT});// 左上角，添加比例尺
+	var top_left_navigation = new BMap.NavigationControl();  //左上角，添加默认缩放平移控件
+	map.addControl(top_left_control);        
+	map.addControl(top_left_navigation);
+</script>
+EOT;
+        echo $html;
+    }
 
 	/**
 	 * Displays job listing metabox.

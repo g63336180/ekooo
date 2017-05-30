@@ -65,7 +65,7 @@ if ( ! function_exists( 'listable_config_getting_active' ) ) :
 							'name' => esc_html__( 'Playlist', 'listable' ),
 							'id'   => 'videos_backgrounds',
 							'type' => 'playlist',
-						),
+						)
 					)
 				),
 				'_page_frontpage_search_fields' => array(
