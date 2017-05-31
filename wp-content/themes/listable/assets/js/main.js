@@ -6705,25 +6705,26 @@ if (!Date.now)
                     return;
                 }
 
-                map = L.map('map', {
-                    scrollWheelZoom: false
-                });
-                markers = new L.MarkerClusterGroup({
-                    showCoverageOnHover: false
-                });
-                CustomHtmlIcon = L.HtmlIcon.extend({
-                    options: {
-                        html: "<div class='pin'></div>",
-                        iconSize: [48, 59], // size of the icon
-                        iconAnchor: [24, 59], // point of the icon which will correspond to marker's location
-                        popupAnchor: [0, -59] // point from which the popup should open relative to the iconAnchor
-                    }
-                });
+                // map = L.map('map', {
+                //     scrollWheelZoom: false
+                // });
+                // markers = new L.MarkerClusterGroup({
+                //     showCoverageOnHover: false
+                // });
+                // CustomHtmlIcon = L.HtmlIcon.extend({
+                //     options: {
+                //         html: "<div class='pin'></div>",
+                //         iconSize: [48, 59], // size of the icon
+                //         iconAnchor: [24, 59], // point of the icon which will correspond to marker's location
+                //         popupAnchor: [0, -59] // point from which the popup should open relative to the iconAnchor
+                //     }
+                // });
 
                 $window.on('pxg:refreshmap', function() {
                     // map._onResize();
                 });
-
+                // 百度地图API功能
+                map = new BMap.Map("map");
                 var tileLayer,
                     mapboxToken = $('body').data('mapbox-token'),
                     mapboxStyle = $('body').data('mapbox-style');
@@ -6739,8 +6740,7 @@ if (!Date.now)
                     //     type: 'roadmap'
                     // });
                     // $('#map').addClass('map--google');
-                    // 百度地图API功能
-                    map = new BMap.Map("map");
+
                     
                     
                     // 随机向地图添加25个标注
@@ -6818,8 +6818,14 @@ if (!Date.now)
             }
 
             // 编写自定义函数,创建标注
-            function addMarker(point,map){
-                var marker = new BMap.Marker(point);
+            function addMarker(point,map,icon_src){
+                if (icon_src != "" && icon_src != undefined) {
+                    var myIcon = new BMap.Icon(icon_src, new BMap.Size(56, 50));
+                    var marker = new BMap.Marker(point,{icon:myIcon});
+                }else{
+                    var marker = new BMap.Marker(point);
+                }
+                // var marker = new BMap.Marker(point,{icon:myIcon});
                 map.addOverlay(marker);
             }
 
@@ -6910,15 +6916,15 @@ if (!Date.now)
                         // map.fitBounds(markers.getBounds(), {
                         //     padding: [50, 50]
                         // });
-                        map.addLayer(markers);
+                        // map.addLayer(markers);
 
                         var mapZoom = map.getZoom();
                         var bounds = markers.getBounds();
-                        var lat = (bounds._northEast.lat + bounds._southWest.lat) / 2;
-                        var lng = (bounds._northEast.lng + bounds._southWest.lng) / 2;
-                        bounds = [lat, lng];
-                        Cookies.set('pxg-listable-bounds', JSON.stringify(bounds));
-                        Cookies.set('pxg-listable-mapZoom', mapZoom);
+                        // var lat = (bounds._northEast.lat + bounds._southWest.lat) / 2;
+                        // var lng = (bounds._northEast.lng + bounds._southWest.lng) / 2;
+                        // bounds = [lat, lng];
+                        // Cookies.set('pxg-listable-bounds', JSON.stringify(bounds));
+                        // Cookies.set('pxg-listable-mapZoom', mapZoom);
                     } else {
                         defaultMapView();
                     }
@@ -6997,11 +7003,11 @@ if (!Date.now)
                     iconClass, m;
                 var latitude = $item.data('latitude');
                 var longitude = $item.data('longitude');
-                console.log(latitude);
-                console.log(longitude);
+                var item_icon = $item.data('icon');
 
                 var point = new BMap.Point(longitude, latitude);
-                addMarker(point,map);
+                // console.log(item_icon);
+                addMarker(point,map, item_icon);
                 if (empty($item.data('latitude')) || empty($item.data('longitude'))) {
                     return false;
                 }
@@ -7029,12 +7035,12 @@ if (!Date.now)
                     iconHTML = "<div class='" + iconClass + "'>" + $icon.html() + "<div class='pin__icon'>" + $categories.html() + "</div></div>";
                 }
 
-                m = L.marker([$item.data('latitude'), $item.data('longitude')], {
-                    icon: new CustomHtmlIcon({
-                        html: iconHTML
-                    })
-                });
-
+                // m = L.marker([$item.data('latitude'), $item.data('longitude')], {
+                //     icon: new CustomHtmlIcon({
+                //         html: iconHTML
+                //     })
+                // });
+                m = L.marker([$item.data('latitude'), $item.data('longitude')]);
                 if (typeof archive !== "undefined") {
 
                     $item.hover(function() {
