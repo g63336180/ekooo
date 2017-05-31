@@ -162,7 +162,7 @@ class WP_Job_Manager_Writepanels {
 
 	public function gg_baidu_custom_box($post)
     {
-        $html = '<div id="form_area">点击选择地点：</div><div id="allmap" style="height:500px; width:100%;"></div><script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=BrROQptLxvqmnN5UG505lUNo1hMAiFd9"></script>';
+        $html = '<div id="location_info">根据地址获取经纬度：</div><div id="form_area">点击选择地点：</div><div id="allmap" style="height:500px; width:100%;"></div><script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=BrROQptLxvqmnN5UG505lUNo1hMAiFd9"></script>';
         $html .= <<<EOT
 <script type="text/javascript">
 	// 百度地图API功能
@@ -194,6 +194,28 @@ class WP_Job_Manager_Writepanels {
 	var top_left_navigation = new BMap.NavigationControl();  //左上角，添加默认缩放平移控件
 	map.addControl(top_left_control);        
 	map.addControl(top_left_navigation);
+	
+	
+	jQuery("#_job_location").on("blur", function(){
+	    var job_location = jQuery("#_job_location").val();
+  
+        if (job_location.length > 0) {
+            // 创建地址解析器实例
+            var myGeo = new BMap.Geocoder();
+            // 将地址解析结果显示在地图上,并调整地图视野
+            myGeo.getPoint(job_location, function(point){
+                if (point) {
+                    var tip_info = '经度：'+ point.lng;
+	                tip_info += ' ; 维度：' + point.lat;
+	                jQuery("#location_info").html("根据地址获取经纬度："+tip_info);
+                    map.centerAndZoom(point, 16);
+                    map.addOverlay(new BMap.Marker(point));
+                }else{
+                    alert("您选择地址没有解析到结果!");
+                }
+            });
+        }
+	});
 </script>
 EOT;
         echo $html;
