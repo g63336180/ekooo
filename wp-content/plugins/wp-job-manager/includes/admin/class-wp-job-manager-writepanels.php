@@ -172,7 +172,7 @@ class WP_Job_Manager_Writepanels {
 <script type="text/javascript">
 	// 百度地图API功能
 	var map = new BMap.Map("allmap");            
-	map.centerAndZoom("北京",10);           
+	map.centerAndZoom("深圳",16);           
 	//单击获取点击的经纬度
 	map.addEventListener("click",function(e){
 	    var tip_info = '经度：'+ e.point.lng;
@@ -215,7 +215,7 @@ class WP_Job_Manager_Writepanels {
         address += e.addressComponent.district;
         address += e.addressComponent.street;
         address += e.addressComponent.streetNumber;
-        alert("当前定位地址为：" + address);
+        //alert("当前定位地址为：" + address);
       });
       geolocationControl.addEventListener("locationError",function(e){
         // 定位失败事件
@@ -223,13 +223,13 @@ class WP_Job_Manager_Writepanels {
       });
       map.addControl(geolocationControl);
       
-      function myFun(result){
-		var cityName = result.name;
-		map.setCenter(cityName);
-//		alert("当前定位城市:"+cityName);
-	}
-	var myCity = new BMap.LocalCity();
-	myCity.get(myFun);
+//      function myFun(result){
+//		var cityName = result.name;
+//		map.setCenter(cityName);
+////		alert("当前定位城市:"+cityName);
+//	}
+//	var myCity = new BMap.LocalCity();
+//	myCity.get(myFun);
 	
 	
 	jQuery("#baidu_button").on("click", function(){
