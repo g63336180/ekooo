@@ -165,20 +165,26 @@ class WP_Job_Manager_Writepanels {
         //$html = '<div id="location_info">根据地址获取经纬度：</div><div id="form_area">点击选择地点：</div><div id="allmap" style="height:500px; width:100%;"></div><script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=BrROQptLxvqmnN5UG505lUNo1hMAiFd9"></script>';
         $html = <<<EOT
 <div>
-    <input type="text" name="baidu_keywords" id="baidu_keywords" />
-    <button name="baidu_button" id="baidu_button">查找</button>
+    地图缩放比例等级：<input type="text" name="map_level" id="map_level" value=""/><br>
+    关键词搜索：<input type="text" name="baidu_keywords" id="baidu_keywords" />
+    <button name="baidu_button" id="baidu_button" onclick="javascript:void(0);">查找</button>
 </div>
 <div id="location_info">根据地址获取经纬度：</div><div id="form_area">点击选择地点：</div><div id="allmap" style="height:500px; width:100%;"></div><script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=BrROQptLxvqmnN5UG505lUNo1hMAiFd9"></script>
 <script type="text/javascript">
+    var map_level = jQuery("#map_level").val();
+//    if (map_level == ""){
+//        map_level = 14;
+//    }
 	// 百度地图API功能
 	var map = new BMap.Map("allmap");            
-	map.centerAndZoom("深圳",16);           
+	map.centerAndZoom("深圳",map_level);           
 	//单击获取点击的经纬度
 	map.addEventListener("click",function(e){
 	    var tip_info = '经度：'+ e.point.lng;
 	    tip_info += ' ; 维度：' + e.point.lat;
 	    
 	    document.getElementById("form_area").innerHTML = "点击获取经纬度：" + tip_info;
+	    jQuery("#map_level").val(map.getZoom());
     });
 	
 	var size = new BMap.Size(10, 20);
@@ -228,7 +234,7 @@ class WP_Job_Manager_Writepanels {
 //		map.setCenter(cityName);
 ////		alert("当前定位城市:"+cityName);
 //	}
-//	var myCity = new BMap.LocalCity();
+	var myCity = new BMap.LocalCity();
 //	myCity.get(myFun);
 	
 	
@@ -236,23 +242,31 @@ class WP_Job_Manager_Writepanels {
 	    var job_location = jQuery("#baidu_keywords").val();
   
         if (job_location.length > 0) {
-            // 创建地址解析器实例
-            var myGeo = new BMap.Geocoder();
-            // 将地址解析结果显示在地图上,并调整地图视野
-            myGeo.getPoint(job_location, function(point){
-                if (point) {
-                    var tip_info = '经度：'+ point.lng;
-	                tip_info += ' ; 维度：' + point.lat;
-	                jQuery("#location_info").html("根据地址获取经纬度："+tip_info);
-                    map.centerAndZoom(point, 16);
-                    map.addOverlay(new BMap.Marker(point));
-                }else{
-                    alert("您选择地址没有解析到结果!");
-                }
-            });
+//            // 创建地址解析器实例
+//            var myGeo = new BMap.Geocoder();
+//            // 将地址解析结果显示在地图上,并调整地图视野
+//            myGeo.getPoint(job_location, function(point){
+//                if (point) {
+//                    var tip_info = '经度：'+ point.lng;
+//	                tip_info += ' ; 维度：' + point.lat;
+//	                jQuery("#location_info").html("根据地址获取经纬度："+tip_info);
+//                    map.centerAndZoom(point, 16);
+//                    map.addOverlay(new BMap.Marker(point));
+//                }else{
+//                    alert("您选择地址没有解析到结果!");
+//                }
+//            }, myCity);
+
+        var local = new BMap.LocalSearch(map, {
+            renderOptions:{map: map}
+        });
+        local.search(job_location);
         }
+
+        jQuery("#map_level").val(map.getZoom());
         return false;
 	});
+    jQuery("#map_level").val(map.getZoom());
 </script>
 EOT;
         echo $html;
