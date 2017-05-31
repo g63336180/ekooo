@@ -162,8 +162,13 @@ class WP_Job_Manager_Writepanels {
 
 	public function gg_baidu_custom_box($post)
     {
-        $html = '<div id="location_info">根据地址获取经纬度：</div><div id="form_area">点击选择地点：</div><div id="allmap" style="height:500px; width:100%;"></div><script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=BrROQptLxvqmnN5UG505lUNo1hMAiFd9"></script>';
-        $html .= <<<EOT
+        //$html = '<div id="location_info">根据地址获取经纬度：</div><div id="form_area">点击选择地点：</div><div id="allmap" style="height:500px; width:100%;"></div><script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=BrROQptLxvqmnN5UG505lUNo1hMAiFd9"></script>';
+        $html = <<<EOT
+<div>
+    <input type="text" name="baidu_keywords" id="baidu_keywords" />
+    <button name="baidu_button" id="baidu_button">查找</button>
+</div>
+<div id="location_info">根据地址获取经纬度：</div><div id="form_area">点击选择地点：</div><div id="allmap" style="height:500px; width:100%;"></div><script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=BrROQptLxvqmnN5UG505lUNo1hMAiFd9"></script>
 <script type="text/javascript">
 	// 百度地图API功能
 	var map = new BMap.Map("allmap");            
@@ -173,7 +178,7 @@ class WP_Job_Manager_Writepanels {
 	    var tip_info = '经度：'+ e.point.lng;
 	    tip_info += ' ; 维度：' + e.point.lat;
 	    
-	    document.getElementById("form_area").innerHTML = tip_info;
+	    document.getElementById("form_area").innerHTML = "点击获取经纬度：" + tip_info;
     });
 	
 	var size = new BMap.Size(10, 20);
@@ -190,14 +195,45 @@ class WP_Job_Manager_Writepanels {
     // }
 }));
 
-    var top_left_control = new BMap.ScaleControl({anchor: BMAP_ANCHOR_TOP_LEFT});// 左上角，添加比例尺
-	var top_left_navigation = new BMap.NavigationControl();  //左上角，添加默认缩放平移控件
-	map.addControl(top_left_control);        
-	map.addControl(top_left_navigation);
+    // 添加带有定位的导航控件
+      var navigationControl = new BMap.NavigationControl({
+        // 靠左上角位置
+        anchor: BMAP_ANCHOR_TOP_LEFT,
+        // LARGE类型
+        type: BMAP_NAVIGATION_CONTROL_LARGE,
+        // 启用显示定位
+        enableGeolocation: true
+      });
+      map.addControl(navigationControl);
+      // 添加定位控件
+      var geolocationControl = new BMap.GeolocationControl();
+      geolocationControl.addEventListener("locationSuccess", function(e){
+        // 定位成功事件
+        var address = '';
+        address += e.addressComponent.province;
+        address += e.addressComponent.city;
+        address += e.addressComponent.district;
+        address += e.addressComponent.street;
+        address += e.addressComponent.streetNumber;
+        alert("当前定位地址为：" + address);
+      });
+      geolocationControl.addEventListener("locationError",function(e){
+        // 定位失败事件
+        alert(e.message);
+      });
+      map.addControl(geolocationControl);
+      
+      function myFun(result){
+		var cityName = result.name;
+		map.setCenter(cityName);
+//		alert("当前定位城市:"+cityName);
+	}
+	var myCity = new BMap.LocalCity();
+	myCity.get(myFun);
 	
 	
-	jQuery("#_job_location").on("blur", function(){
-	    var job_location = jQuery("#_job_location").val();
+	jQuery("#baidu_button").on("click", function(){
+	    var job_location = jQuery("#baidu_keywords").val();
   
         if (job_location.length > 0) {
             // 创建地址解析器实例
@@ -215,6 +251,7 @@ class WP_Job_Manager_Writepanels {
                 }
             });
         }
+        return false;
 	});
 </script>
 EOT;
